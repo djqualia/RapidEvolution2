@@ -1,0 +1,86 @@
+<project name="RapidEvolution" default="dist" basedir="."> 
+    <property name="title" value="Rapid Evolution" />	
+	<property file="build.properties" />                                  
+    	
+	<taskdef resource="proguard/ant/task.properties" classpath="${PROGUARD_JAR}" />	
+	<taskdef name="izpack" classpath="${IZPACK_COMPILER}" classname="com.izforge.izpack.ant.IzPackTask"/>	
+	
+	<target name="dist" depends="compile" description="create jar file">  
+    	<!-- sets TSTAMP, DSTAMP and TODAY properties -->
+	    <tstamp>
+	       <format property="timestamp.isoformat" pattern="yyyy-MM-dd'T'HH:mm:ss" />
+	    </tstamp>     	
+	    <jar jarfile="${DEPLOY_DIR}/rapid_evolution_pre.jar">
+			<manifest>
+				<attribute name="Built-By" value="Jesse Bickmore"/>
+				<attribute name="Built-On" value="${timestamp.isoformat}"/>
+				<attribute name="Created-By" value="${ant.version}"/>
+				<attribute name="Main-Class" value="rapid_evolution.RapidEvolution"/>
+			</manifest>
+	    	<fileset dir="${BUILD_DIR}">       
+	    		<include name="**" />
+	       </fileset>          
+		</jar>  	
+		<proguard configuration="${PROGUARD_CONFIG}"/>
+  		<izpack input="${IZPACK_CONFIG}" output="${DEPLOY_DIR}/${RE2_INSTALL_JAR}" basedir="${IZPACK_BASE_DIR}"/>		
+		<copy file="${DEPLOY_DIR}/${RE2_INSTALL_JAR}" tofile="${RE2_LAUNCHER_PATH}/${RE2_INSTALL_JAR}"/>
+		<zip destfile="${DEPLOY_DIR}/${RE2_LAUNCHER_ZIP}"
+		       basedir="${RE2_LAUNCHER_PATH}"
+		       update="true"
+		/>
+		<copy file="${DEPLOY_DIR}/${RE2_INSTALL_JAR}" tofile="${RE2_PREINSTALLED_PATH}/${RE2_INSTALL_JAR}"/>
+		<copy file="${DEPLOY_DIR}/rapid_evolution.jar" tofile="${RE2_PREINSTALLED_PATH}/windows/rapid_evolution.jar"/>
+		<copy file="config/izpack/install files/log4j.properties" tofile="${RE2_PREINSTALLED_PATH}/windows/log4j.properties"/>
+		<copy todir="${RE2_PREINSTALLED_PATH}/windows/skins">
+	    	<fileset dir="skins"/>
+		</copy>
+		<copy todir="${RE2_PREINSTALLED_PATH}/windows/bundles">
+	    	<fileset dir="bundles"/>
+		</copy>
+		<zip destfile="${DEPLOY_DIR}/${RE2_INSTALL_ZIP}"
+		       basedir="${RE2_PREINSTALLED_PATH}"
+		       update="true"
+		/>
+		<copy file="${TEMP_DIR}/RapidEvolution.java" tofile="${SRC_DIR}/rapid_evolution/RapidEvolution.java" overwrite="true"/>
+		<copy file="${TEMP_DIR}/re2_install.xml" tofile="${IZPACK_CONFIG}" overwrite="true"/>
+	</target>
+	
+	<target name="init">
+		<mkdir dir="${DEPLOY_DIR}"/> <!-- Create the deploy directory structure used by dist -->   	     	  	           
+		<!-- classpath -->
+		<path id="project.classpath">
+		    <fileset dir="${LIB_DIR}" >
+		    	<include name="**/*.jar"/>
+	     		<include name="**/*.zip"/>
+	    	</fileset>                      		
+		</path>
+		<copy file="${SRC_DIR}/rapid_evolution/RapidEvolution.java" tofile="${TEMP_DIR}/RapidEvolution.java" overwrite="true"/>
+		<copy file="${IZPACK_CONFIG}" tofile="${TEMP_DIR}/re2_install.xml" overwrite="true"/>
+		<replace file="${SRC_DIR}/rapid_evolution/RapidEvolution.java" token="@@@RE2_VERSION@@@" value="${RE2_VERSION}"/>		
+		<replace file="${IZPACK_CONFIG}" token="@@@RE2_VERSION@@@" value="${RE2_VERSION}"/>		
+    </target>
+ 
+	<!-- ************* compile target ************* -->  
+	<target name="compile" depends="clean" description="compile the source">               
+		<!-- Compile the java code from ${SRC_DIR} into ${BUILD_DIR} -->  
+	    <mkdir dir="${BUILD_DIR}"/> <!-- Create the BUILD_DIR directory structure used by compile -->      
+		<javac
+      	   sourcepath=""
+           srcdir="${SRC_DIR}" 
+           destdir="${BUILD_DIR}" 
+           classpathref="project.classpath"
+		   fork="yes"
+		   executable="${COMPILER}"
+		/>
+	</target>
+
+	<target name="clean" depends="init" description="clean up">    
+		<delete dir="${BUILD_DIR}"/>
+	    <delete>
+			<fileset dir="${DEPLOY_DIR}">
+		       <include name="*.*" />
+			</fileset>
+		</delete>
+	</target>
+	
+</project>

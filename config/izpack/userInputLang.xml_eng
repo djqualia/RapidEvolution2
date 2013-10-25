@@ -1,0 +1,7 @@
+<langpack>
+  <str id="re2_max_allowed_memory" txt="Max allowed memory:"/>
+  <str id="configuration_options" txt="Configuration Options"/>
+  <str id="re2_max_memory_description" txt="Please enter the maximum amount of memory Rapid Evolution should use, in megabytes (MB)."/>
+  <str id="re2_disable_anti_aliasing_description" txt="You can optionally disable anti-aliasing for improved performance."/>
+  <str id="re2_enable_anti_aliased_text" txt="Enable anti-aliased text"/>
+</langpack>

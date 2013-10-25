@@ -1,0 +1,15 @@
+<userInput>
+<panel order="0">
+<field type="title" bold="true" align="center" txt="Configuration Options" id="configuration_options"/>
+<field type="text" variable="RE2_MEMORY">
+  <description align="left" txt="Please enter the maximum amount of memory Rapid Evolution should use, in megabytes (MB)."
+               id="re2_max_memory_description"/>
+  <spec align="left" txt="Max allowed memory:" id="re2_max_allowed_memory" size="5" set="400"/>
+</field>
+<field type="check" variable="RE2_AA">
+  <description align="left" txt="You can optionally disable anti-aliasing for improved performance."
+               id="re2_disable_anti_aliasing_description"/>
+  <spec align="left" txt="Enable anti-aliased text" id="re2_enable_anti_aliased_text" true="true" false="false" set="true"/>
+</field>
+</panel>
+</userInput>

@@ -1,0 +1,3870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<music_database version="1.03">
+<config>
+<settings>
+<sync_needed>no</sync_needed>
+<sync_in_progress>yes</sync_in_progress>
+<id3_tag_library>2</id3_tag_library>
+<key_format>0</key_format>
+<rename_file_pattern>{%keycode%}{, %bpm%}{ %artist%}{ - %album%}{ - [%track%]}{ - %title%}{ (%remix%)}</rename_file_pattern>
+<custom_field_1_tag>none</custom_field_1_tag>
+<custom_field_2_tag>none</custom_field_2_tag>
+<custom_field_3_tag>none</custom_field_3_tag>
+<custom_field_4_tag>none</custom_field_4_tag>
+<bpm_slider_tickmark>0</bpm_slider_tickmark>
+<style_require_shortcut>CTRL</style_require_shortcut>
+<style_exclude_shortcut>ALT</style_exclude_shortcut>
+<bpm_slider_range>8%</bpm_slider_range>
+<os_media_player_path>g:\Program Files\Winamp\winamp.exe</os_media_player_path>
+<time_pitch_shift_quality>0</time_pitch_shift_quality>
+<audio_processing_cpu_utilization>9</audio_processing_cpu_utilization>
+<bpm_detection_quality>0</bpm_detection_quality>
+<key_detection_quality>100</key_detection_quality>
+<bpm_detection_min_bpm>80.0</bpm_detection_min_bpm>
+<bpm_detection_max_bpm>160.0</bpm_detection_max_bpm>
+<album_cover_thumbnail_size>64</album_cover_thumbnail_size>
+<piano_octaves>4</piano_octaves>
+<training_speed>10</training_speed>
+<piano_shift>3</piano_shift>
+<piano_midi_device>Java Sound Synthesizer</piano_midi_device>
+<piano_row_1_chord_type>1</piano_row_1_chord_type>
+<piano_row_2_chord_type>2</piano_row_2_chord_type>
+<custom_field_1_label>camelot</custom_field_1_label>
+<custom_field_1_sort_as>0</custom_field_1_sort_as>
+<custom_field_2_label>re2 old algorithm</custom_field_2_label>
+<custom_field_2_sort_as>0</custom_field_2_sort_as>
+<custom_field_3_label>actual</custom_field_3_label>
+<custom_field_3_sort_as>0</custom_field_3_sort_as>
+<custom_field_4_label>re2 new algorithm</custom_field_4_label>
+<custom_field_4_sort_as>0</custom_field_4_sort_as>
+<options_song_filter_1_combo>artist</options_song_filter_1_combo>
+<options_song_filter_2_combo>album</options_song_filter_2_combo>
+<options_song_filter_3_combo>key</options_song_filter_3_combo>
+<options_organized_directory/>
+<options_organized_backup_directory/>
+</settings>
+<columns total="51">
+<default_order>
+<search num_columns="48">
+<index>21</index>
+<index>33</index>
+<index>0</index>
+<index>32</index>
+<index>1</index>
+<index>2</index>
+<index>3</index>
+<index>4</index>
+<index>27</index>
+<index>5</index>
+<index>46</index>
+<index>18</index>
+<index>25</index>
+<index>9</index>
+<index>7</index>
+<index>8</index>
+<index>42</index>
+<index>50</index>
+<index>47</index>
+<index>11</index>
+<index>19</index>
+<index>26</index>
+<index>49</index>
+<index>48</index>
+<index>38</index>
+<index>43</index>
+<index>34</index>
+<index>36</index>
+<index>6</index>
+<index>28</index>
+<index>12</index>
+<index>30</index>
+<index>31</index>
+<index>29</index>
+<index>35</index>
+<index>10</index>
+<index>41</index>
+<index>37</index>
+<index>45</index>
+<index>40</index>
+<index>20</index>
+<index>23</index>
+<index>13</index>
+<index>15</index>
+<index>16</index>
+<index>17</index>
+<index>14</index>
+<index>44</index>
+</search>
+<mixouts num_columns="51">
+<index>21</index>
+<index>33</index>
+<index>0</index>
+<index>32</index>
+<index>1</index>
+<index>2</index>
+<index>3</index>
+<index>4</index>
+<index>27</index>
+<index>22</index>
+<index>24</index>
+<index>39</index>
+<index>5</index>
+<index>46</index>
+<index>18</index>
+<index>25</index>
+<index>9</index>
+<index>7</index>
+<index>8</index>
+<index>42</index>
+<index>50</index>
+<index>12</index>
+<index>47</index>
+<index>10</index>
+<index>11</index>
+<index>19</index>
+<index>26</index>
+<index>35</index>
+<index>49</index>
+<index>41</index>
+<index>48</index>
+<index>38</index>
+<index>43</index>
+<index>34</index>
+<index>36</index>
+<index>6</index>
+<index>28</index>
+<index>29</index>
+<index>30</index>
+<index>31</index>
+<index>37</index>
+<index>45</index>
+<index>40</index>
+<index>20</index>
+<index>23</index>
+<index>13</index>
+<index>15</index>
+<index>16</index>
+<index>17</index>
+<index>14</index>
+<index>44</index>
+</mixouts>
+</default_order>
+<column id="0">
+<search_width>378</search_width>
+<mixouts_width>75</mixouts_width>
+<excludes_width>350</excludes_width>
+<roots_width>350</roots_width>
+<suggested_mixouts_width>350</suggested_mixouts_width>
+<sync_width>350</sync_width>
+<add_song_query_width>350</add_song_query_width>
+<edit_song_query_width>350</edit_song_query_width>
+</column>
+<column id="1">
+<search_width>150</search_width>
+<mixouts_width>150</mixouts_width>
+<excludes_width>150</excludes_width>
+<roots_width>150</roots_width>
+<suggested_mixouts_width>150</suggested_mixouts_width>
+<sync_width>150</sync_width>
+<add_song_query_width>150</add_song_query_width>
+<edit_song_query_width>150</edit_song_query_width>
+</column>
+<column id="2">
+<search_width>150</search_width>
+<mixouts_width>150</mixouts_width>
+<excludes_width>150</excludes_width>
+<roots_width>150</roots_width>
+<suggested_mixouts_width>150</suggested_mixouts_width>
+<sync_width>150</sync_width>
+<add_song_query_width>150</add_song_query_width>
+<edit_song_query_width>150</edit_song_query_width>
+</column>
+<column id="3">
+<search_width>50</search_width>
+<mixouts_width>50</mixouts_width>
+<excludes_width>50</excludes_width>
+<roots_width>50</roots_width>
+<suggested_mixouts_width>50</suggested_mixouts_width>
+<sync_width>50</sync_width>
+<add_song_query_width>50</add_song_query_width>
+<edit_song_query_width>50</edit_song_query_width>
+</column>
+<column id="4">
+<search_width>150</search_width>
+<mixouts_width>150</mixouts_width>
+<excludes_width>150</excludes_width>
+<roots_width>150</roots_width>
+<suggested_mixouts_width>150</suggested_mixouts_width>
+<sync_width>150</sync_width>
+<add_song_query_width>150</add_song_query_width>
+<edit_song_query_width>150</edit_song_query_width>
+</column>
+<column id="5">
+<search_width>55</search_width>
+<mixouts_width>55</mixouts_width>
+<excludes_width>55</excludes_width>
+<roots_width>55</roots_width>
+<suggested_mixouts_width>55</suggested_mixouts_width>
+<sync_width>55</sync_width>
+<add_song_query_width>55</add_song_query_width>
+<edit_song_query_width>55</edit_song_query_width>
+</column>
+<column id="6">
+<search_width>65</search_width>
+<mixouts_width>65</mixouts_width>
+<excludes_width>65</excludes_width>
+<roots_width>65</roots_width>
+<suggested_mixouts_width>65</suggested_mixouts_width>
+<sync_width>65</sync_width>
+<add_song_query_width>65</add_song_query_width>
+<edit_song_query_width>65</edit_song_query_width>
+</column>
+<column id="7">
+<search_width>75</search_width>
+<mixouts_width>75</mixouts_width>
+<excludes_width>75</excludes_width>
+<roots_width>75</roots_width>
+<suggested_mixouts_width>75</suggested_mixouts_width>
+<sync_width>75</sync_width>
+<add_song_query_width>75</add_song_query_width>
+<edit_song_query_width>75</edit_song_query_width>
+</column>
+<column id="8">
+<search_width>75</search_width>
+<mixouts_width>75</mixouts_width>
+<excludes_width>75</excludes_width>
+<roots_width>75</roots_width>
+<suggested_mixouts_width>75</suggested_mixouts_width>
+<sync_width>75</sync_width>
+<add_song_query_width>75</add_song_query_width>
+<edit_song_query_width>75</edit_song_query_width>
+</column>
+<column id="9">
+<search_width>71</search_width>
+<mixouts_width>75</mixouts_width>
+<excludes_width>75</excludes_width>
+<roots_width>75</roots_width>
+<suggested_mixouts_width>75</suggested_mixouts_width>
+<sync_width>75</sync_width>
+<add_song_query_width>75</add_song_query_width>
+<edit_song_query_width>75</edit_song_query_width>
+</column>
+<column id="10">
+<search_width>130</search_width>
+<mixouts_width>75</mixouts_width>
+<excludes_width>75</excludes_width>
+<roots_width>75</roots_width>
+<suggested_mixouts_width>75</suggested_mixouts_width>
+<sync_width>75</sync_width>
+<add_song_query_width>75</add_song_query_width>
+<edit_song_query_width>75</edit_song_query_width>
+</column>
+<column id="11">
+<search_width>75</search_width>
+<mixouts_width>75</mixouts_width>
+<excludes_width>75</excludes_width>
+<roots_width>75</roots_width>
+<suggested_mixouts_width>75</suggested_mixouts_width>
+<sync_width>75</sync_width>
+<add_song_query_width>75</add_song_query_width>
+<edit_song_query_width>75</edit_song_query_width>
+</column>
+<column id="12">
+<search_width>72</search_width>
+<mixouts_width>75</mixouts_width>
+<excludes_width>75</excludes_width>
+<roots_width>75</roots_width>
+<suggested_mixouts_width>75</suggested_mixouts_width>
+<sync_width>75</sync_width>
+<add_song_query_width>75</add_song_query_width>
+<edit_song_query_width>75</edit_song_query_width>
+</column>
+<column id="13">
+<search_width>208</search_width>
+<mixouts_width>450</mixouts_width>
+<excludes_width>450</excludes_width>
+<roots_width>450</roots_width>
+<suggested_mixouts_width>450</suggested_mixouts_width>
+<sync_width>450</sync_width>
+<add_song_query_width>450</add_song_query_width>
+<edit_song_query_width>450</edit_song_query_width>
+</column>
+<column id="14">
+<search_width>1250</search_width>
+<mixouts_width>1250</mixouts_width>
+<excludes_width>1250</excludes_width>
+<roots_width>1250</roots_width>
+<suggested_mixouts_width>1250</suggested_mixouts_width>
+<sync_width>1250</sync_width>
+<add_song_query_width>1250</add_song_query_width>
+<edit_song_query_width>1250</edit_song_query_width>
+</column>
+<column id="15">
+<search_width>50</search_width>
+<mixouts_width>50</mixouts_width>
+<excludes_width>50</excludes_width>
+<roots_width>50</roots_width>
+<suggested_mixouts_width>50</suggested_mixouts_width>
+<sync_width>50</sync_width>
+<add_song_query_width>50</add_song_query_width>
+<edit_song_query_width>50</edit_song_query_width>
+</column>
+<column id="16">
+<search_width>50</search_width>
+<mixouts_width>50</mixouts_width>
+<excludes_width>50</excludes_width>
+<roots_width>50</roots_width>
+<suggested_mixouts_width>50</suggested_mixouts_width>
+<sync_width>50</sync_width>
+<add_song_query_width>50</add_song_query_width>
+<edit_song_query_width>50</edit_song_query_width>
+</column>
+<column id="17">
+<search_width>50</search_width>
+<mixouts_width>50</mixouts_width>
+<excludes_width>50</excludes_width>
+<roots_width>50</roots_width>
+<suggested_mixouts_width>50</suggested_mixouts_width>
+<sync_width>50</sync_width>
+<add_song_query_width>50</add_song_query_width>
+<edit_song_query_width>50</edit_song_query_width>
+</column>
+<column id="18">
+<search_width>80</search_width>
+<mixouts_width>80</mixouts_width>
+<excludes_width>80</excludes_width>
+<roots_width>80</roots_width>
+<suggested_mixouts_width>80</suggested_mixouts_width>
+<sync_width>80</sync_width>
+<add_song_query_width>80</add_song_query_width>
+<edit_song_query_width>80</edit_song_query_width>
+</column>
+<column id="19">
+<search_width>70</search_width>
+<mixouts_width>70</mixouts_width>
+<excludes_width>70</excludes_width>
+<roots_width>70</roots_width>
+<suggested_mixouts_width>70</suggested_mixouts_width>
+<sync_width>70</sync_width>
+<add_song_query_width>70</add_song_query_width>
+<edit_song_query_width>70</edit_song_query_width>
+</column>
+<column id="20">
+<search_width>70</search_width>
+<mixouts_width>70</mixouts_width>
+<excludes_width>70</excludes_width>
+<roots_width>70</roots_width>
+<suggested_mixouts_width>70</suggested_mixouts_width>
+<sync_width>70</sync_width>
+<add_song_query_width>70</add_song_query_width>
+<edit_song_query_width>70</edit_song_query_width>
+</column>
+<column id="21">
+<search_width>500</search_width>
+<mixouts_width>500</mixouts_width>
+<excludes_width>500</excludes_width>
+<roots_width>500</roots_width>
+<suggested_mixouts_width>500</suggested_mixouts_width>
+<sync_width>500</sync_width>
+<add_song_query_width>500</add_song_query_width>
+<edit_song_query_width>500</edit_song_query_width>
+</column>
+<column id="22">
+<search_width>50</search_width>
+<mixouts_width>50</mixouts_width>
+<excludes_width>50</excludes_width>
+<roots_width>50</roots_width>
+<suggested_mixouts_width>50</suggested_mixouts_width>
+<sync_width>50</sync_width>
+<add_song_query_width>50</add_song_query_width>
+<edit_song_query_width>50</edit_song_query_width>
+</column>
+<column id="23">
+<search_width>65</search_width>
+<mixouts_width>65</mixouts_width>
+<excludes_width>65</excludes_width>
+<roots_width>65</roots_width>
+<suggested_mixouts_width>65</suggested_mixouts_width>
+<sync_width>65</sync_width>
+<add_song_query_width>65</add_song_query_width>
+<edit_song_query_width>65</edit_song_query_width>
+</column>
+<column id="24">
+<search_width>50</search_width>
+<mixouts_width>50</mixouts_width>
+<excludes_width>50</excludes_width>
+<roots_width>50</roots_width>
+<suggested_mixouts_width>50</suggested_mixouts_width>
+<sync_width>50</sync_width>
+<add_song_query_width>50</add_song_query_width>
+<edit_song_query_width>50</edit_song_query_width>
+</column>
+<column id="25">
+<search_width>75</search_width>
+<mixouts_width>75</mixouts_width>
+<excludes_width>75</excludes_width>
+<roots_width>75</roots_width>
+<suggested_mixouts_width>75</suggested_mixouts_width>
+<sync_width>75</sync_width>
+<add_song_query_width>75</add_song_query_width>
+<edit_song_query_width>75</edit_song_query_width>
+</column>
+<column id="26">
+<search_width>70</search_width>
+<mixouts_width>70</mixouts_width>
+<excludes_width>70</excludes_width>
+<roots_width>70</roots_width>
+<suggested_mixouts_width>70</suggested_mixouts_width>
+<sync_width>70</sync_width>
+<add_song_query_width>70</add_song_query_width>
+<edit_song_query_width>70</edit_song_query_width>
+</column>
+<column id="27">
+<search_width>150</search_width>
+<mixouts_width>150</mixouts_width>
+<excludes_width>150</excludes_width>
+<roots_width>150</roots_width>
+<suggested_mixouts_width>150</suggested_mixouts_width>
+<sync_width>150</sync_width>
+<add_song_query_width>150</add_song_query_width>
+<edit_song_query_width>150</edit_song_query_width>
+</column>
+<column id="28">
+<search_width>62</search_width>
+<mixouts_width>100</mixouts_width>
+<excludes_width>100</excludes_width>
+<roots_width>100</roots_width>
+<suggested_mixouts_width>100</suggested_mixouts_width>
+<sync_width>100</sync_width>
+<add_song_query_width>100</add_song_query_width>
+<edit_song_query_width>100</edit_song_query_width>
+</column>
+<column id="29">
+<search_width>75</search_width>
+<mixouts_width>100</mixouts_width>
+<excludes_width>100</excludes_width>
+<roots_width>100</roots_width>
+<suggested_mixouts_width>100</suggested_mixouts_width>
+<sync_width>100</sync_width>
+<add_song_query_width>100</add_song_query_width>
+<edit_song_query_width>100</edit_song_query_width>
+</column>
+<column id="30">
+<search_width>70</search_width>
+<mixouts_width>100</mixouts_width>
+<excludes_width>100</excludes_width>
+<roots_width>100</roots_width>
+<suggested_mixouts_width>100</suggested_mixouts_width>
+<sync_width>100</sync_width>
+<add_song_query_width>100</add_song_query_width>
+<edit_song_query_width>100</edit_song_query_width>
+</column>
+<column id="31">
+<search_width>86</search_width>
+<mixouts_width>100</mixouts_width>
+<excludes_width>100</excludes_width>
+<roots_width>100</roots_width>
+<suggested_mixouts_width>100</suggested_mixouts_width>
+<sync_width>100</sync_width>
+<add_song_query_width>100</add_song_query_width>
+<edit_song_query_width>100</edit_song_query_width>
+</column>
+<column id="32">
+<search_width>250</search_width>
+<mixouts_width>250</mixouts_width>
+<excludes_width>250</excludes_width>
+<roots_width>250</roots_width>
+<suggested_mixouts_width>250</suggested_mixouts_width>
+<sync_width>250</sync_width>
+<add_song_query_width>250</add_song_query_width>
+<edit_song_query_width>250</edit_song_query_width>
+</column>
+<column id="33">
+<search_width>400</search_width>
+<mixouts_width>400</mixouts_width>
+<excludes_width>400</excludes_width>
+<roots_width>400</roots_width>
+<suggested_mixouts_width>400</suggested_mixouts_width>
+<sync_width>400</sync_width>
+<add_song_query_width>400</add_song_query_width>
+<edit_song_query_width>400</edit_song_query_width>
+</column>
+<column id="34">
+<search_width>100</search_width>
+<mixouts_width>100</mixouts_width>
+<excludes_width>100</excludes_width>
+<roots_width>100</roots_width>
+<suggested_mixouts_width>100</suggested_mixouts_width>
+<sync_width>100</sync_width>
+<add_song_query_width>100</add_song_query_width>
+<edit_song_query_width>100</edit_song_query_width>
+</column>
+<column id="35">
+<search_width>70</search_width>
+<mixouts_width>70</mixouts_width>
+<excludes_width>70</excludes_width>
+<roots_width>70</roots_width>
+<suggested_mixouts_width>70</suggested_mixouts_width>
+<sync_width>70</sync_width>
+<add_song_query_width>70</add_song_query_width>
+<edit_song_query_width>70</edit_song_query_width>
+</column>
+<column id="36">
+<search_width>100</search_width>
+<mixouts_width>100</mixouts_width>
+<excludes_width>100</excludes_width>
+<roots_width>100</roots_width>
+<suggested_mixouts_width>100</suggested_mixouts_width>
+<sync_width>100</sync_width>
+<add_song_query_width>100</add_song_query_width>
+<edit_song_query_width>100</edit_song_query_width>
+</column>
+<column id="37">
+<search_width>110</search_width>
+<mixouts_width>110</mixouts_width>
+<excludes_width>110</excludes_width>
+<roots_width>110</roots_width>
+<suggested_mixouts_width>110</suggested_mixouts_width>
+<sync_width>110</sync_width>
+<add_song_query_width>110</add_song_query_width>
+<edit_song_query_width>110</edit_song_query_width>
+</column>
+<column id="38">
+<search_width>100</search_width>
+<mixouts_width>100</mixouts_width>
+<excludes_width>100</excludes_width>
+<roots_width>100</roots_width>
+<suggested_mixouts_width>100</suggested_mixouts_width>
+<sync_width>100</sync_width>
+<add_song_query_width>100</add_song_query_width>
+<edit_song_query_width>100</edit_song_query_width>
+</column>
+<column id="39">
+<search_width>300</search_width>
+<mixouts_width>300</mixouts_width>
+<excludes_width>300</excludes_width>
+<roots_width>300</roots_width>
+<suggested_mixouts_width>300</suggested_mixouts_width>
+<sync_width>300</sync_width>
+<add_song_query_width>300</add_song_query_width>
+<edit_song_query_width>300</edit_song_query_width>
+</column>
+<column id="40">
+<search_width>70</search_width>
+<mixouts_width>70</mixouts_width>
+<excludes_width>70</excludes_width>
+<roots_width>70</roots_width>
+<suggested_mixouts_width>70</suggested_mixouts_width>
+<sync_width>70</sync_width>
+<add_song_query_width>70</add_song_query_width>
+<edit_song_query_width>70</edit_song_query_width>
+</column>
+<column id="41">
+<search_width>54</search_width>
+<mixouts_width>100</mixouts_width>
+<excludes_width>100</excludes_width>
+<roots_width>100</roots_width>
+<suggested_mixouts_width>100</suggested_mixouts_width>
+<sync_width>100</sync_width>
+<add_song_query_width>100</add_song_query_width>
+<edit_song_query_width>100</edit_song_query_width>
+</column>
+<column id="42">
+<search_width>100</search_width>
+<mixouts_width>100</mixouts_width>
+<excludes_width>100</excludes_width>
+<roots_width>100</roots_width>
+<suggested_mixouts_width>100</suggested_mixouts_width>
+<sync_width>100</sync_width>
+<add_song_query_width>100</add_song_query_width>
+<edit_song_query_width>100</edit_song_query_width>
+</column>
+<column id="43">
+<search_width>200</search_width>
+<mixouts_width>200</mixouts_width>
+<excludes_width>200</excludes_width>
+<roots_width>200</roots_width>
+<suggested_mixouts_width>200</suggested_mixouts_width>
+<sync_width>200</sync_width>
+<add_song_query_width>200</add_song_query_width>
+<edit_song_query_width>200</edit_song_query_width>
+</column>
+<column id="44">
+<search_width>50</search_width>
+<mixouts_width>50</mixouts_width>
+<excludes_width>50</excludes_width>
+<roots_width>50</roots_width>
+<suggested_mixouts_width>50</suggested_mixouts_width>
+<sync_width>50</sync_width>
+<add_song_query_width>50</add_song_query_width>
+<edit_song_query_width>50</edit_song_query_width>
+</column>
+<column id="45">
+<search_width>110</search_width>
+<mixouts_width>110</mixouts_width>
+<excludes_width>110</excludes_width>
+<roots_width>110</roots_width>
+<suggested_mixouts_width>110</suggested_mixouts_width>
+<sync_width>110</sync_width>
+<add_song_query_width>110</add_song_query_width>
+<edit_song_query_width>110</edit_song_query_width>
+</column>
+<column id="46">
+<search_width>85</search_width>
+<mixouts_width>85</mixouts_width>
+<excludes_width>85</excludes_width>
+<roots_width>85</roots_width>
+<suggested_mixouts_width>85</suggested_mixouts_width>
+<sync_width>85</sync_width>
+<add_song_query_width>85</add_song_query_width>
+<edit_song_query_width>85</edit_song_query_width>
+</column>
+<column id="47">
+<search_width>75</search_width>
+<mixouts_width>75</mixouts_width>
+<excludes_width>75</excludes_width>
+<roots_width>75</roots_width>
+<suggested_mixouts_width>75</suggested_mixouts_width>
+<sync_width>75</sync_width>
+<add_song_query_width>75</add_song_query_width>
+<edit_song_query_width>75</edit_song_query_width>
+</column>
+<column id="48">
+<search_width>100</search_width>
+<mixouts_width>100</mixouts_width>
+<excludes_width>100</excludes_width>
+<roots_width>100</roots_width>
+<suggested_mixouts_width>100</suggested_mixouts_width>
+<sync_width>100</sync_width>
+<add_song_query_width>100</add_song_query_width>
+<edit_song_query_width>100</edit_song_query_width>
+</column>
+<column id="49">
+<search_width>75</search_width>
+<mixouts_width>75</mixouts_width>
+<excludes_width>75</excludes_width>
+<roots_width>75</roots_width>
+<suggested_mixouts_width>75</suggested_mixouts_width>
+<sync_width>75</sync_width>
+<add_song_query_width>75</add_song_query_width>
+<edit_song_query_width>75</edit_song_query_width>
+</column>
+<column id="50">
+<search_width>75</search_width>
+<mixouts_width>75</mixouts_width>
+<excludes_width>75</excludes_width>
+<roots_width>75</roots_width>
+<suggested_mixouts_width>75</suggested_mixouts_width>
+<sync_width>75</sync_width>
+<add_song_query_width>75</add_song_query_width>
+<edit_song_query_width>75</edit_song_query_width>
+</column>
+</columns>
+<tables>
+<table name="search" num_columns="9" primary_sort_ascending="no" primary_sort_column="4" secondary_sort_ascending="no" secondary_sort_column="1" tertiary_sort_ascending="no" tertiary_sort_column="-1">
+<column column_id="0" width="378"/>
+<column column_id="28" width="62"/>
+<column column_id="30" width="70"/>
+<column column_id="31" width="86"/>
+<column column_id="29" width="75"/>
+<column column_id="35" width="70"/>
+<column column_id="10" width="130"/>
+<column column_id="41" width="54"/>
+<column column_id="13" width="208"/>
+</table>
+<table name="mixouts" num_columns="9" primary_sort_ascending="yes" primary_sort_column="-1" secondary_sort_ascending="yes" secondary_sort_column="-1" tertiary_sort_ascending="yes" tertiary_sort_column="-1">
+<column column_id="0" width="75"/>
+<column column_id="22" width="50"/>
+<column column_id="5" width="55"/>
+<column column_id="18" width="80"/>
+<column column_id="9" width="75"/>
+<column column_id="12" width="75"/>
+<column column_id="19" width="70"/>
+<column column_id="20" width="70"/>
+<column column_id="13" width="450"/>
+</table>
+<table name="excludes" num_columns="9" primary_sort_ascending="yes" primary_sort_column="-1" secondary_sort_ascending="yes" secondary_sort_column="-1" tertiary_sort_ascending="yes" tertiary_sort_column="-1">
+<column column_id="0" width="350"/>
+<column column_id="28" width="100"/>
+<column column_id="35" width="70"/>
+<column column_id="10" width="75"/>
+<column column_id="31" width="100"/>
+<column column_id="29" width="100"/>
+<column column_id="41" width="100"/>
+<column column_id="30" width="100"/>
+<column column_id="13" width="450"/>
+</table>
+<table name="roots" num_columns="9" primary_sort_ascending="yes" primary_sort_column="-1" secondary_sort_ascending="yes" secondary_sort_column="-1" tertiary_sort_ascending="yes" tertiary_sort_column="-1">
+<column column_id="0" width="350"/>
+<column column_id="22" width="50"/>
+<column column_id="5" width="55"/>
+<column column_id="18" width="80"/>
+<column column_id="9" width="75"/>
+<column column_id="12" width="75"/>
+<column column_id="19" width="70"/>
+<column column_id="20" width="70"/>
+<column column_id="13" width="450"/>
+</table>
+<table name="suggested_mixouts" num_columns="9" primary_sort_ascending="yes" primary_sort_column="-1" secondary_sort_ascending="yes" secondary_sort_column="-1" tertiary_sort_ascending="yes" tertiary_sort_column="-1">
+<column column_id="0" width="350"/>
+<column column_id="22" width="50"/>
+<column column_id="5" width="55"/>
+<column column_id="18" width="80"/>
+<column column_id="9" width="75"/>
+<column column_id="12" width="75"/>
+<column column_id="19" width="70"/>
+<column column_id="20" width="70"/>
+<column column_id="13" width="450"/>
+</table>
+<table name="sync" num_columns="9" primary_sort_ascending="yes" primary_sort_column="-1" secondary_sort_ascending="yes" secondary_sort_column="-1" tertiary_sort_ascending="yes" tertiary_sort_column="-1">
+<column column_id="0" width="350"/>
+<column column_id="28" width="100"/>
+<column column_id="35" width="70"/>
+<column column_id="10" width="75"/>
+<column column_id="31" width="100"/>
+<column column_id="29" width="100"/>
+<column column_id="41" width="100"/>
+<column column_id="30" width="100"/>
+<column column_id="13" width="450"/>
+</table>
+<table name="add_song_query" num_columns="9" primary_sort_ascending="yes" primary_sort_column="-1" secondary_sort_ascending="yes" secondary_sort_column="-1" tertiary_sort_ascending="yes" tertiary_sort_column="-1">
+<column column_id="0" width="350"/>
+<column column_id="28" width="100"/>
+<column column_id="35" width="70"/>
+<column column_id="10" width="75"/>
+<column column_id="31" width="100"/>
+<column column_id="29" width="100"/>
+<column column_id="41" width="100"/>
+<column column_id="30" width="100"/>
+<column column_id="13" width="450"/>
+</table>
+<table name="edit_song_query" num_columns="9" primary_sort_ascending="yes" primary_sort_column="-1" secondary_sort_ascending="yes" secondary_sort_column="-1" tertiary_sort_ascending="yes" tertiary_sort_column="-1">
+<column column_id="0" width="350"/>
+<column column_id="28" width="100"/>
+<column column_id="35" width="70"/>
+<column column_id="10" width="75"/>
+<column column_id="31" width="100"/>
+<column column_id="29" width="100"/>
+<column column_id="41" width="100"/>
+<column column_id="30" width="100"/>
+<column column_id="13" width="450"/>
+</table>
+</tables>
+<user>
+<name>promoonly</name>
+<password>pr0mos0nly</password>
+<email/>
+<website/>
+</user>
+</config>
+<styles dirty="no" num_styles="2">
+<style child_ids="" description="" id="1" name="promo only" parent_ids="-1">
+<include>
+<songs>
+<song>119</song>
+<song>118</song>
+<song>117</song>
+<song>115</song>
+<song>114</song>
+<song>113</song>
+<song>112</song>
+<song>111</song>
+<song>110</song>
+<song>109</song>
+<song>108</song>
+<song>107</song>
+<song>106</song>
+<song>105</song>
+<song>104</song>
+<song>103</song>
+<song>102</song>
+<song>101</song>
+<song>100</song>
+<song>99</song>
+<song>98</song>
+<song>97</song>
+<song>96</song>
+<song>95</song>
+<song>94</song>
+<song>93</song>
+<song>92</song>
+<song>91</song>
+<song>90</song>
+<song>89</song>
+<song>88</song>
+<song>87</song>
+<song>86</song>
+<song>85</song>
+<song>84</song>
+<song>83</song>
+<song>82</song>
+<song>81</song>
+<song>80</song>
+<song>79</song>
+<song>78</song>
+<song>77</song>
+<song>76</song>
+<song>75</song>
+<song>74</song>
+<song>73</song>
+<song>72</song>
+<song>71</song>
+<song>70</song>
+<song>69</song>
+<song>68</song>
+<song>67</song>
+<song>66</song>
+<song>65</song>
+<song>64</song>
+<song>63</song>
+<song>62</song>
+<song>61</song>
+<song>60</song>
+<song>59</song>
+<song>58</song>
+<song>57</song>
+<song>56</song>
+<song>55</song>
+<song>54</song>
+<song>53</song>
+<song>51</song>
+<song>50</song>
+<song>49</song>
+<song>48</song>
+<song>47</song>
+<song>46</song>
+<song>44</song>
+<song>42</song>
+<song>41</song>
+<song>40</song>
+<song>39</song>
+<song>38</song>
+<song>36</song>
+<song>33</song>
+<song>32</song>
+<song>30</song>
+<song>28</song>
+<song>23</song>
+<song>22</song>
+<song>20</song>
+<song>19</song>
+<song>18</song>
+<song>17</song>
+<song>16</song>
+<song>15</song>
+<song>14</song>
+<song>13</song>
+<song>12</song>
+</songs>
+</include>
+<include_display>
+<entry display="Adkins, Trace - Honky Tonk Badonkadonk ('70s Groove Mix)" value="89"/>
+<entry display="Amuka - I Want More (Joe Bermudez &amp; Klubjumpers Mix)" value="99"/>
+<entry display="Anoushka Shankar - Beloved (Karsh Kale Remix)" value="115"/>
+<entry display="Atfc - Spread Love (Vocal Love Mix)" value="41"/>
+<entry display="Atomic Swindlers - Diamond Dreamer (Julian Marsh Power Drive Mix)" value="105"/>
+<entry display="Avant - 4 Minutes" value="117"/>
+<entry display="B.G. Ft. Mannie Fresh - Move Around" value="63"/>
+<entry display="Big World - Me Gusta (Original Mix)" value="88"/>
+<entry display="Bionik Phunk (Sugar Caine Presents) - In My Head (ATFC's Timmy's In My Head Remix)" value="18"/>
+<entry display="Bitter:sweet - The Mating Game (Kraak &amp; Smaak Remix)" value="106"/>
+<entry display="Bon Jovi - Who Says You Can't Go Home" value="20"/>
+<entry display="Bravo Mike Ft. Monica Lynk - Someone Like U (New Jersey Mix)" value="16"/>
+<entry display="Braxe, Alan &amp; Fred Falke &amp; Savage - Bliss (Original Mix)" value="12"/>
+<entry display="Bump - House Stompin 06 (Steve Travell and Andy Jones Bump 06 Mix)" value="71"/>
+<entry display="Carey, Mariah Ft. Snoop Dogg - Say Somethin'" value="22"/>
+<entry display="Casino - Running on Back to You (Idc Remix)" value="76"/>
+<entry display="Clarkson, Kelly - Walk Away (Craig J Big Love Mixshow)" value="101"/>
+<entry display="Codex - Burn (Original Mix)" value="14"/>
+<entry display="Coldplay - Talk (Francois Kevorkian Remix)" value="17"/>
+<entry display="Cox, Carl - Give Me Your Love (Valentino Kanzyani Extended reMix)" value="93"/>
+<entry display="D'mantra, Dan - Shaker (Stroud Remix)" value="111"/>
+<entry display="Da Muzicianz Ft. Mr. Collipark - Camera Phone (PO Clean Edit)" value="64"/>
+<entry display="De No, Angelica - Again (Klubjumpers Club Mix)" value="96"/>
+<entry display="Dina Vass and Association - Let You Get Away (Original Mix)" value="42"/>
+<entry display="Dirtie Blonde - Walk Over Me" value="51"/>
+<entry display="DJ Volume Ft. Capretta - White Horse (Club Mix)" value="19"/>
+<entry display="DJ Zulan and Alex Teddy - Time to (Fatblock Remix)" value="87"/>
+<entry display="Djs Are Alive - Gimme Some Love (Main Mix)" value="80"/>
+<entry display="Dobson, Fefe - This Is My Life (Album Version)" value="48"/>
+<entry display="Dre Ft. Rick Ross - Chevy Ridin' High (PO Clean Edit)" value="60"/>
+<entry display="Dynamic Rockers - Life (Original Mix)" value="77"/>
+<entry display="Echo &amp; the Bunnymen - Lips Like Sugar (from the album &quot;Future Retro&quot;) (Way Out West Remix Edit)" value="109"/>
+<entry display="Ensign, Sean - It's My Life (Finally) (Mike Cruz' Vox Club Mix)" value="103"/>
+<entry display="Falke, Fred and Savage - Wait for Love (Original Mix)" value="82"/>
+<entry display="Field Mob Ft. Ciara - So What (PO Clean Edit)" value="36"/>
+<entry display="Firefox - Sex Shooter (Club Mix)" value="72"/>
+<entry display="Flipsyde - Someday" value="49"/>
+<entry display="Foxx, Jamie Ft. Twista - DJ Play A Love Song (PO Clean Edit)" value="58"/>
+<entry display="Fresh 27 Featuring Vicky Fee - Point of View (Jules Spinner Edit)" value="86"/>
+<entry display="G, Nathan - Flashback (Men in White Suits Club Mix)" value="78"/>
+<entry display="Goldfrapp - Ooh La La (Benny Benassi Remix Extended)" value="95"/>
+<entry display="Goldfrapp - Ooh La La (Mike &quot;Spike&quot; Stent Single Version)" value="47"/>
+<entry display="Gotta Featuring Spirit - You Dropped A Bomb on Me (Club Mix 1)" value="73"/>
+<entry display="Hamilton, Anthony - Pass Me Over" value="66"/>
+<entry display="Harris, Russ (DJ) - Hide &amp; Seek (Extended Mix)" value="102"/>
+<entry display="Hawthorne Heights - Saying Sorry" value="23"/>
+<entry display="Hot Chip - Over and Over (Naum Gabo Remix)" value="107"/>
+<entry display="Hunter, Andy - To Life to Love (Andy Hunter Remix - Vocal Club)" value="97"/>
+<entry display="Hunter, Andy - To Life To Love (Cedric Gervais Remix - Vocal Club)" value="113"/>
+<entry display="J, Ray - What I Need" value="32"/>
+<entry display="Jonas Brothers - Mandy" value="33"/>
+<entry display="Jones, Donell - I'm Gonna Be" value="61"/>
+<entry display="Jura - Take This Out (Mike Da Wizard &amp; Anderstanding Tribaholic Mix)" value="39"/>
+<entry display="Kem - Into You" value="67"/>
+<entry display="Kraft - Rock Da House (3d Team Remix)" value="83"/>
+<entry display="Lachey, Nick - What's Left Of Me" value="28"/>
+<entry display="LL Cool J Feat. Jennifer Lopez - Control Myself (Nevins Elektrotek Mix)" value="91"/>
+<entry display="Matisyahu - King Without A Crown (Album Version)" value="30"/>
+<entry display="Mattee Esse and Sant - The Bass Gets Move (Original Mix)" value="70"/>
+<entry display="Men, Women &amp; Children - Dance in My Blood (Moleman Remix)" value="114"/>
+<entry display="Midler, Bette - Fever (L.E.X. Bette's on Fire Club Mix)" value="94"/>
+<entry display="Mobb Deep - Put Em In Their Place (PO Clean Edit)" value="55"/>
+<entry display="Mr. V - Jus Dance (Cosmic Ritual Dub)" value="15"/>
+<entry display="Ne-Yo - When You're Mad (PO Clean Edit)" value="40"/>
+<entry display="Northernbeat Featuring Angie Brown - Rockin 4 Myself (Starlet Djs Vs N'bab)" value="79"/>
+<entry display="Nu Frequency - Buy Me (Dub Mix)" value="74"/>
+<entry display="Oakenfold, Paul - Faster Kill Pussycat (Club Mix)" value="110"/>
+<entry display="Oakenfold, Paul - Faster Kill Pussycat (Roman Hunter Remix)" value="104"/>
+<entry display="Philter Kidz Featuring Jl - Real Love (Garron Llang Remix)" value="75"/>
+<entry display="Prince - Black Sweat" value="65"/>
+<entry display="Princess Superstar and Larry Tee - Licky (Chris Mennace Mix)" value="69"/>
+<entry display="Prodigy, The - Voodoo People (Pendulum Remix)" value="112"/>
+<entry display="Purple Ribbon All-Stars - Body Rock (PO Clean Edit)" value="57"/>
+<entry display="Radio 4 - Dance to the Underground (DFA Remix)" value="108"/>
+<entry display="Ross, Rick - Hustlin'" value="56"/>
+<entry display="Rupaul Feat. Tom Trujillo - People Are People (Giuseppe D's Rutroactive Club)" value="92"/>
+<entry display="Saint Etienne - Stars Above Us (DJ Jeff Barringer Club Mix)" value="98"/>
+<entry display="Santaolalla, Gustavo - The Wings (the Theme to Brokeback Mountain)" value="100"/>
+<entry display="Shawnna - Gettin' Some (Clean)" value="118"/>
+<entry display="Shinedown - I Dare You (Rock Mix)" value="46"/>
+<entry display="Spikiri Ft. Hugh Masekela - Spiyanko (Roots Mix)" value="13"/>
+<entry display="Stargazer - Feel Good (Original Mix)" value="85"/>
+<entry display="Stereo K - A Man Can Change the World (Danny Jc Remix)" value="84"/>
+<entry display="T.I. - What You Know (PO Clean Edit)" value="54"/>
+<entry display="Tamar Ft. Price - Beautiful, Loved &amp; Blessed" value="59"/>
+<entry display="Trick-Trick Ft. Jazze Pha - Attitude Adjustment (PO Clean Edit)" value="62"/>
+<entry display="Tunstall, KT - Black Horse &amp; The Cherry Tree" value="44"/>
+<entry display="Vale, Jessica - Disco Libido (Dave Aude Future Disco Clean Mixshow)" value="90"/>
+<entry display="Vicious, Johnny Ft. Judy Albanese - Can't Let Go (Johnny's House Mix)" value="38"/>
+<entry display="Vicious, Johnny Ft. Judy Albanese - Cant Let Go (Tribal H2 Vocal)" value="81"/>
+<entry display="Wall, Paul - Girl" value="50"/>
+<entry display="Yeah Yeah Yeahs - Gold Lion (Diplo Remix)" value="53"/>
+<entry display="Young Leek - Jiggle It" value="68"/>
+<entry display="Yung Joc - goin' down (radio)" value="119"/>
+</include_display>
+</style>
+<style child_ids="" description="" id="2" name="test files" parent_ids="-1">
+<include>
+<songs>
+<song>127</song>
+<song>126</song>
+<song>125</song>
+<song>124</song>
+<song>123</song>
+<song>122</song>
+<song>121</song>
+<song>120</song>
+<song>135</song>
+<song>134</song>
+<song>133</song>
+<song>132</song>
+<song>131</song>
+<song>130</song>
+<song>129</song>
+<song>128</song>
+</songs>
+</include>
+<include_display>
+<entry display="A major" value="120"/>
+<entry display="C dom7" value="121"/>
+<entry display="C Maj11" value="122"/>
+<entry display="C Maj6" value="123"/>
+<entry display="C minor" value="124"/>
+<entry display="cm-fsharp" value="125"/>
+<entry display="Dom11" value="126"/>
+<entry display="Dom9" value="127"/>
+<entry display="F minor" value="128"/>
+<entry display="Maj7" value="129"/>
+<entry display="Maj7sharp11" value="130"/>
+<entry display="Min11" value="131"/>
+<entry display="Min6" value="132"/>
+<entry display="Min7" value="133"/>
+<entry display="Min7b9" value="134"/>
+<entry display="Min9" value="135"/>
+</include_display>
+</style>
+</styles>
+<songs check_unique_id="no" max_unique_id="136">
+<song num_excludes="0" num_mixouts="0">
+<unique_id>120</unique_id>
+<songid_winfo>A major   (0:02)</songid_winfo>
+<songid>A major</songid>
+<shortid>A major</shortid>
+<shortid_winfo>A major   (0:02)</shortid_winfo>
+<title>A major</title>
+<custom4>A</custom4>
+<time>0:02</time>
+<time_signature>4/4</time_signature>
+<filename>G:\workspace\RapidEvolution\test data\audio files\chords\A major.wav</filename>
+<digital_only>yes</digital_only>
+<key_accuracy>53</key_accuracy>
+<rating>0</rating>
+<date_added>2007-11-05 12:00:00 CST</date_added>
+<styles_bitmask>01</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>89</unique_id>
+<songid_winfo>Adkins, Trace - Honky Tonk Badonkadonk ('70s Groove Mix)   (4:48)</songid_winfo>
+<songid>Adkins, Trace - Honky Tonk Badonkadonk ('70s Groove Mix)</songid>
+<shortid>Adkins, Trace - Honky Tonk Badonkadonk ('70s Groove Mix)</shortid>
+<shortid_winfo>Adkins, Trace - Honky Tonk Badonkadonk ('70s Groove Mix)   (4:48)</shortid_winfo>
+<artist>Adkins, Trace</artist>
+<title>Honky Tonk Badonkadonk</title>
+<remix>'70s Groove Mix</remix>
+<custom1>9A</custom1>
+<custom2>Em</custom2>
+<custom3>Em</custom3>
+<custom4>Em</custom4>
+<time>4:48</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\VA-Promo Only Mainstream Club April-2CD-2006-NVS[sabre-torrents.com]\101-trace_adkins-honky_tonk_badonkadonk__70s_groove_remix-nvs.mp3</filename>
+<key_accuracy>48</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-15 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>99</unique_id>
+<songid_winfo>Amuka - I Want More (Joe Bermudez &amp; Klubjumpers Mix)   (10:03)</songid_winfo>
+<songid>Amuka - I Want More (Joe Bermudez &amp; Klubjumpers Mix)</songid>
+<shortid>Amuka - I Want More (Joe Bermudez &amp; Klubjumpers Mix)</shortid>
+<shortid_winfo>Amuka - I Want More (Joe Bermudez &amp; Klubjumpers Mix)   (10:03)</shortid_winfo>
+<artist>Amuka</artist>
+<title>I Want More</title>
+<remix>Joe Bermudez &amp; Klubjumpers Mix</remix>
+<custom1>11A</custom1>
+<custom2>F#m</custom2>
+<custom3>F#m</custom3>
+<custom4>F#m</custom4>
+<time>10:03</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\VA-Promo Only Mainstream Club April-2CD-2006-NVS[sabre-torrents.com]\202-amuka-i_want_more__cling_on_to_me__joe_bermudez_and_klubjumpers_remix-nvs.mp3</filename>
+<key_accuracy>50</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-15 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>115</unique_id>
+<songid_winfo>Anoushka Shankar - Beloved (Karsh Kale Remix)   (9:28)</songid_winfo>
+<songid>Anoushka Shankar - Beloved (Karsh Kale Remix)</songid>
+<shortid>Anoushka Shankar - Beloved (Karsh Kale Remix)</shortid>
+<shortid_winfo>Anoushka Shankar - Beloved (Karsh Kale Remix)   (9:28)</shortid_winfo>
+<artist>Anoushka Shankar</artist>
+<title>Beloved</title>
+<remix>Karsh Kale Remix</remix>
+<custom1>11A</custom1>
+<custom2>C:C#m</custom2>
+<custom3>F#m</custom3>
+<custom4>C:C#m</custom4>
+<time>9:28</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\Promo Only Alternative Club April\10-anoushka_shankar-beloved_(karsh_kale_remix).mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-17 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>41</unique_id>
+<songid_winfo>Atfc - Spread Love (Vocal Love Mix)   (8:20)</songid_winfo>
+<songid>Atfc - Spread Love (Vocal Love Mix)</songid>
+<shortid>Atfc - Spread Love (Vocal Love Mix)</shortid>
+<shortid_winfo>Atfc - Spread Love (Vocal Love Mix)   (8:20)</shortid_winfo>
+<artist>Atfc</artist>
+<title>Spread Love</title>
+<remix>Vocal Love Mix</remix>
+<custom1>6A</custom1>
+<custom2>Gm</custom2>
+<custom3>Gm</custom3>
+<custom4>Gm</custom4>
+<time>8:20</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\101-atfc-spread_love__vocal_love_mix-nvs.mp3</filename>
+<key_accuracy>50</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>105</unique_id>
+<songid_winfo>Atomic Swindlers - Diamond Dreamer (Julian Marsh Power Drive Mix)   (7:29)</songid_winfo>
+<songid>Atomic Swindlers - Diamond Dreamer (Julian Marsh Power Drive Mix)</songid>
+<shortid>Atomic Swindlers - Diamond Dreamer (Julian Marsh Power Drive Mix)</shortid>
+<shortid_winfo>Atomic Swindlers - Diamond Dreamer (Julian Marsh Power Drive Mix)   (7:29)</shortid_winfo>
+<artist>Atomic Swindlers</artist>
+<title>Diamond Dreamer</title>
+<remix>Julian Marsh Power Drive Mix</remix>
+<custom1>X:4A</custom1>
+<custom2>F</custom2>
+<custom3>Fm</custom3>
+<custom4>F</custom4>
+<time>7:29</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\VA-Promo Only Mainstream Club April-2CD-2006-NVS[sabre-torrents.com]\210-atomic_swindlers-diamond_dreamer__julian_marsh_power_drive_remix-nvs.mp3</filename>
+<key_accuracy>47</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-15 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>117</unique_id>
+<songid_winfo>Avant - 4 Minutes   (95.6bpm, 3:59)</songid_winfo>
+<songid>Avant - 4 Minutes</songid>
+<shortid>Avant - 4 Minutes</shortid>
+<shortid_winfo>Avant - 4 Minutes   (95.6bpm, 3:59)</shortid_winfo>
+<artist>Avant</artist>
+<title>4 Minutes</title>
+<custom1>6A</custom1>
+<custom2>C:A#</custom2>
+<custom3>Gm</custom3>
+<custom4>C:A#</custom4>
+<time>3:59</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\last5\03. Avant - 4 Minutes.mp3</filename>
+<key_accuracy>51</key_accuracy>
+<bpm_start>95.6</bpm_start>
+<rating>0</rating>
+<date_added>2006-05-22 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>63</unique_id>
+<songid_winfo>B.G. Ft. Mannie Fresh - Move Around   (4:48)</songid_winfo>
+<songid>B.G. Ft. Mannie Fresh - Move Around</songid>
+<shortid>B.G. Ft. Mannie Fresh - Move Around</shortid>
+<shortid_winfo>B.G. Ft. Mannie Fresh - Move Around   (4:48)</shortid_winfo>
+<artist>B.G. Ft. Mannie Fresh</artist>
+<title>Move Around</title>
+<custom1>6A</custom1>
+<custom2>Gm</custom2>
+<custom3>Gm</custom3>
+<custom4>Gm</custom4>
+<time>4:48</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\14-b.g._ft._mannie_fresh-move_around.mp3</filename>
+<key_accuracy>46</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>88</unique_id>
+<songid_winfo>Big World - Me Gusta (Original Mix)   (7:32)</songid_winfo>
+<songid>Big World - Me Gusta (Original Mix)</songid>
+<shortid>Big World - Me Gusta (Original Mix)</shortid>
+<shortid_winfo>Big World - Me Gusta (Original Mix)   (7:32)</shortid_winfo>
+<artist>Big World</artist>
+<title>Me Gusta</title>
+<remix>Original Mix</remix>
+<custom1>8B</custom1>
+<custom2>X:Gm</custom2>
+<custom3>C</custom3>
+<custom4>X:A#</custom4>
+<time>7:32</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\\206-big_world-me_gusta__original_mix-nvs.mp3</filename>
+<key_accuracy>60</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>18</unique_id>
+<songid_winfo>Bionik Phunk (Sugar Caine Presents) - In My Head (ATFC's Timmy's In My Head Remix)   (7:04)</songid_winfo>
+<songid>Bionik Phunk (Sugar Caine Presents) - In My Head (ATFC's Timmy's In My Head Remix)</songid>
+<shortid>Bionik Phunk (Sugar Caine Presents) - In My Head (ATFC's Timmy's In My Head Remix)</shortid>
+<shortid_winfo>Bionik Phunk (Sugar Caine Presents) - In My Head (ATFC's Timmy's In My Head Remix)   (7:04)</shortid_winfo>
+<artist>Bionik Phunk (Sugar Caine Presents)</artist>
+<title>In My Head</title>
+<remix>ATFC's Timmy's In My Head Remix</remix>
+<custom1>5A</custom1>
+<custom2>C:Gm</custom2>
+<custom3>Cm</custom3>
+<custom4>C:Gm</custom4>
+<time>7:04</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\07-sugar_caine_presents_bionik_phunk-in_my_head_(atfcs_timmys_in_my_head_remix).mp3</filename>
+<key_accuracy>50</key_accuracy>
+<num_plays>1</num_plays>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>106</unique_id>
+<songid_winfo>Bitter:sweet - The Mating Game (Kraak &amp; Smaak Remix)   (7:47)</songid_winfo>
+<songid>Bitter:sweet - The Mating Game (Kraak &amp; Smaak Remix)</songid>
+<shortid>Bitter:sweet - The Mating Game (Kraak &amp; Smaak Remix)</shortid>
+<shortid_winfo>Bitter:sweet - The Mating Game (Kraak &amp; Smaak Remix)   (7:47)</shortid_winfo>
+<artist>Bitter:sweet</artist>
+<title>The Mating Game</title>
+<remix>Kraak &amp; Smaak Remix</remix>
+<custom1>8A</custom1>
+<custom2>Am</custom2>
+<custom3>Am</custom3>
+<custom4>Am</custom4>
+<time>7:47</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\Promo Only Alternative Club April\02-bittersweet-the_mating_game_(kraak_and_smaak_remix).mp3</filename>
+<key_accuracy>51</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-17 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>20</unique_id>
+<songid_winfo>Bon Jovi - Who Says You Can't Go Home   (3:48)</songid_winfo>
+<songid>Bon Jovi - Who Says You Can't Go Home</songid>
+<shortid>Bon Jovi - Who Says You Can't Go Home</shortid>
+<shortid_winfo>Bon Jovi - Who Says You Can't Go Home   (3:48)</shortid_winfo>
+<artist>Bon Jovi</artist>
+<title>Who Says You Can't Go Home</title>
+<custom1>9B</custom1>
+<custom2>G</custom2>
+<custom3>G</custom3>
+<custom4>X:Gm</custom4>
+<time>3:48</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\19-bon_jovi-who_says_you_cant_go_home.mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>16</unique_id>
+<songid_winfo>Bravo Mike Ft. Monica Lynk - Someone Like U (New Jersey Mix)   (6:09)</songid_winfo>
+<songid>Bravo Mike Ft. Monica Lynk - Someone Like U (New Jersey Mix)</songid>
+<shortid>Bravo Mike Ft. Monica Lynk - Someone Like U (New Jersey Mix)</shortid>
+<shortid_winfo>Bravo Mike Ft. Monica Lynk - Someone Like U (New Jersey Mix)   (6:09)</shortid_winfo>
+<artist>Bravo Mike Ft. Monica Lynk</artist>
+<title>Someone Like U</title>
+<remix>New Jersey Mix</remix>
+<custom1>12A</custom1>
+<custom2>C:F#m</custom2>
+<custom3>C#m</custom3>
+<custom4>C:F#m</custom4>
+<time>6:09</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\05-bravo_mike_ft._monica_lynk-someone_like_u_(new_jersey_mix).mp3</filename>
+<key_accuracy>62</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-13 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>12</unique_id>
+<songid_winfo>Braxe, Alan &amp; Fred Falke &amp; Savage - Bliss (Original Mix)   (4:29)</songid_winfo>
+<songid>Braxe, Alan &amp; Fred Falke &amp; Savage - Bliss (Original Mix)</songid>
+<shortid>Braxe, Alan &amp; Fred Falke &amp; Savage - Bliss (Original Mix)</shortid>
+<shortid_winfo>Braxe, Alan &amp; Fred Falke &amp; Savage - Bliss (Original Mix)   (4:29)</shortid_winfo>
+<artist>Braxe, Alan &amp; Fred Falke &amp; Savage</artist>
+<title>Bliss</title>
+<remix>Original Mix</remix>
+<custom1>9A</custom1>
+<custom2>C:G</custom2>
+<custom3>Em</custom3>
+<custom4>C:G</custom4>
+<time>4:29</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\01-alan_braxe_and_fred_falke_and_savage-bliss_(original_mix).mp3</filename>
+<key_accuracy>45</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-13 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>71</unique_id>
+<songid_winfo>Bump - House Stompin 06 (Steve Travell and Andy Jones Bump 06 Mix)   (10:26)</songid_winfo>
+<songid>Bump - House Stompin 06 (Steve Travell and Andy Jones Bump 06 Mix)</songid>
+<shortid>Bump - House Stompin 06 (Steve Travell and Andy Jones Bump 06 Mix)</shortid>
+<shortid_winfo>Bump - House Stompin 06 (Steve Travell and Andy Jones Bump 06 Mix)   (10:26)</shortid_winfo>
+<artist>Bump</artist>
+<title>House Stompin 06</title>
+<remix>Steve Travell and Andy Jones Bump 06 Mix</remix>
+<custom1>4A</custom1>
+<custom2>X:F</custom2>
+<custom3>Fm</custom3>
+<custom4>Fm</custom4>
+<time>10:26</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\105-bump-house_stompin_06__steve_travell_and_andy_jones_bump_06_mix-nvs.mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>121</unique_id>
+<songid_winfo>C dom7   (0:02)</songid_winfo>
+<songid>C dom7</songid>
+<shortid>C dom7</shortid>
+<shortid_winfo>C dom7   (0:02)</shortid_winfo>
+<title>C dom7</title>
+<custom4>C</custom4>
+<time>0:02</time>
+<time_signature>4/4</time_signature>
+<filename>G:\workspace\RapidEvolution\test data\audio files\chords\C dom7.aif</filename>
+<digital_only>yes</digital_only>
+<key_accuracy>56</key_accuracy>
+<rating>0</rating>
+<date_added>2007-11-05 12:00:00 CST</date_added>
+<styles_bitmask>01</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>122</unique_id>
+<songid_winfo>C Maj11   (0:03)</songid_winfo>
+<songid>C Maj11</songid>
+<shortid>C Maj11</shortid>
+<shortid_winfo>C Maj11   (0:03)</shortid_winfo>
+<title>C Maj11</title>
+<custom4>C</custom4>
+<time>0:03</time>
+<time_signature>4/4</time_signature>
+<filename>G:\workspace\RapidEvolution\test data\audio files\chords\C Maj11.wav</filename>
+<digital_only>yes</digital_only>
+<key_accuracy>51</key_accuracy>
+<rating>0</rating>
+<date_added>2007-11-05 12:00:00 CST</date_added>
+<styles_bitmask>01</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>123</unique_id>
+<songid_winfo>C Maj6   (0:03)</songid_winfo>
+<songid>C Maj6</songid>
+<shortid>C Maj6</shortid>
+<shortid_winfo>C Maj6   (0:03)</shortid_winfo>
+<title>C Maj6</title>
+<custom4>C</custom4>
+<time>0:03</time>
+<time_signature>4/4</time_signature>
+<filename>G:\workspace\RapidEvolution\test data\audio files\chords\C Maj6.wav</filename>
+<digital_only>yes</digital_only>
+<key_accuracy>53</key_accuracy>
+<rating>0</rating>
+<date_added>2007-11-05 12:00:00 CST</date_added>
+<styles_bitmask>01</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>124</unique_id>
+<songid_winfo>C minor   (0:04)</songid_winfo>
+<songid>C minor</songid>
+<shortid>C minor</shortid>
+<shortid_winfo>C minor   (0:04)</shortid_winfo>
+<title>C minor</title>
+<custom4>Cm</custom4>
+<time>0:04</time>
+<time_signature>4/4</time_signature>
+<filename>G:\workspace\RapidEvolution\test data\audio files\chords\C minor.wav</filename>
+<digital_only>yes</digital_only>
+<key_accuracy>55</key_accuracy>
+<rating>0</rating>
+<date_added>2007-11-05 12:00:00 CST</date_added>
+<styles_bitmask>01</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>22</unique_id>
+<songid_winfo>Carey, Mariah Ft. Snoop Dogg - Say Somethin'   (3:45)</songid_winfo>
+<songid>Carey, Mariah Ft. Snoop Dogg - Say Somethin'</songid>
+<shortid>Carey, Mariah Ft. Snoop Dogg - Say Somethin'</shortid>
+<shortid_winfo>Carey, Mariah Ft. Snoop Dogg - Say Somethin'   (3:45)</shortid_winfo>
+<artist>Carey, Mariah Ft. Snoop Dogg</artist>
+<title>Say Somethin'</title>
+<custom1>12B</custom1>
+<custom2>C:C#m</custom2>
+<custom3>E</custom3>
+<custom4>E</custom4>
+<time>3:45</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\01-mariah_carey_ft._snoop_dogg-say_somethin.mp3</filename>
+<key_accuracy>50</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>76</unique_id>
+<songid_winfo>Casino - Running on Back to You (Idc Remix)   (4:14)</songid_winfo>
+<songid>Casino - Running on Back to You (Idc Remix)</songid>
+<shortid>Casino - Running on Back to You (Idc Remix)</shortid>
+<shortid_winfo>Casino - Running on Back to You (Idc Remix)   (4:14)</shortid_winfo>
+<artist>Casino</artist>
+<title>Running on Back to You</title>
+<remix>Idc Remix</remix>
+<custom1>6A</custom1>
+<custom2>Gm</custom2>
+<custom3>Gm</custom3>
+<custom4>C:Cm</custom4>
+<time>4:14</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\112-casino-running_on_back_to_you__idc_remix-nvs.mp3</filename>
+<key_accuracy>48</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>101</unique_id>
+<songid_winfo>Clarkson, Kelly - Walk Away (Craig J Big Love Mixshow)   (5:21)</songid_winfo>
+<songid>Clarkson, Kelly - Walk Away (Craig J Big Love Mixshow)</songid>
+<shortid>Clarkson, Kelly - Walk Away (Craig J Big Love Mixshow)</shortid>
+<shortid_winfo>Clarkson, Kelly - Walk Away (Craig J Big Love Mixshow)   (5:21)</shortid_winfo>
+<artist>Clarkson, Kelly</artist>
+<title>Walk Away</title>
+<remix>Craig J Big Love Mixshow</remix>
+<custom1>6A</custom1>
+<custom2>Gm</custom2>
+<custom3>Gm</custom3>
+<custom4>C:Cm</custom4>
+<time>5:21</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\VA-Promo Only Mainstream Club April-2CD-2006-NVS[sabre-torrents.com]\204-kelly_clarkson-walk_away_craig_j_big_love_mixshow-nvs.mp3</filename>
+<key_accuracy>48</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-15 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>125</unique_id>
+<songid_winfo>cm-fsharp   (0:07)</songid_winfo>
+<songid>cm-fsharp</songid>
+<shortid>cm-fsharp</shortid>
+<shortid_winfo>cm-fsharp   (0:07)</shortid_winfo>
+<title>cm-fsharp</title>
+<custom4>F#</custom4>
+<time>0:07</time>
+<time_signature>4/4</time_signature>
+<filename>G:\workspace\RapidEvolution\test data\audio files\chords\cm-fsharp.wav</filename>
+<digital_only>yes</digital_only>
+<key_accuracy>56</key_accuracy>
+<rating>0</rating>
+<date_added>2007-11-05 12:00:00 CST</date_added>
+<styles_bitmask>01</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>14</unique_id>
+<songid_winfo>Codex - Burn (Original Mix)   (6:12)</songid_winfo>
+<songid>Codex - Burn (Original Mix)</songid>
+<shortid>Codex - Burn (Original Mix)</shortid>
+<shortid_winfo>Codex - Burn (Original Mix)   (6:12)</shortid_winfo>
+<artist>Codex</artist>
+<title>Burn</title>
+<remix>Original Mix</remix>
+<custom1>5A</custom1>
+<custom2>Cm</custom2>
+<custom3>Cm</custom3>
+<custom4>Cm</custom4>
+<time>6:12</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\03-codex-burn_(original_mix).mp3</filename>
+<key_accuracy>47</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-13 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>17</unique_id>
+<songid_winfo>Coldplay - Talk (Francois Kevorkian Remix)   (9:00)</songid_winfo>
+<songid>Coldplay - Talk (Francois Kevorkian Remix)</songid>
+<shortid>Coldplay - Talk (Francois Kevorkian Remix)</shortid>
+<shortid_winfo>Coldplay - Talk (Francois Kevorkian Remix)   (9:00)</shortid_winfo>
+<artist>Coldplay</artist>
+<title>Talk</title>
+<remix>Francois Kevorkian Remix</remix>
+<custom1>6A</custom1>
+<custom2>Gm</custom2>
+<custom3>Gm</custom3>
+<custom4>Gm</custom4>
+<time>9:00</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\06-coldplay-talk_(francois_kevorkian_remix).mp3</filename>
+<key_accuracy>50</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>93</unique_id>
+<songid_winfo>Cox, Carl - Give Me Your Love (Valentino Kanzyani Extended reMix)   (8:40)</songid_winfo>
+<songid>Cox, Carl - Give Me Your Love (Valentino Kanzyani Extended reMix)</songid>
+<shortid>Cox, Carl - Give Me Your Love (Valentino Kanzyani Extended reMix)</shortid>
+<shortid_winfo>Cox, Carl - Give Me Your Love (Valentino Kanzyani Extended reMix)   (8:40)</shortid_winfo>
+<artist>Cox, Carl</artist>
+<title>Give Me Your Love</title>
+<remix>Valentino Kanzyani Extended reMix</remix>
+<custom1>3A</custom1>
+<custom2>A#m</custom2>
+<custom3>A#m</custom3>
+<custom4>A#m</custom4>
+<time>8:40</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\VA-Promo Only Mainstream Club April-2CD-2006-NVS[sabre-torrents.com]\105-carl_cox-give_me_your_love__valentino_kanzyani_extended_remix-nvs.mp3</filename>
+<key_accuracy>58</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-15 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>111</unique_id>
+<songid_winfo>D'mantra, Dan - Shaker (Stroud Remix)   (6:49)</songid_winfo>
+<songid>D'mantra, Dan - Shaker (Stroud Remix)</songid>
+<shortid>D'mantra, Dan - Shaker (Stroud Remix)</shortid>
+<shortid_winfo>D'mantra, Dan - Shaker (Stroud Remix)   (6:49)</shortid_winfo>
+<artist>D'mantra, Dan</artist>
+<title>Shaker</title>
+<remix>Stroud Remix</remix>
+<custom1>6A</custom1>
+<custom2>Gm</custom2>
+<custom3>Gm</custom3>
+<custom4>Gm</custom4>
+<time>6:49</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\Promo Only Alternative Club April\08-dan_dmantra-shaker_(stroud_remix).mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-17 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>64</unique_id>
+<songid_winfo>Da Muzicianz Ft. Mr. Collipark - Camera Phone (PO Clean Edit)   (3:32)</songid_winfo>
+<songid>Da Muzicianz Ft. Mr. Collipark - Camera Phone (PO Clean Edit)</songid>
+<shortid>Da Muzicianz Ft. Mr. Collipark - Camera Phone (PO Clean Edit)</shortid>
+<shortid_winfo>Da Muzicianz Ft. Mr. Collipark - Camera Phone (PO Clean Edit)   (3:32)</shortid_winfo>
+<artist>Da Muzicianz Ft. Mr. Collipark</artist>
+<title>Camera Phone</title>
+<remix>PO Clean Edit</remix>
+<custom1>6A</custom1>
+<custom2>Gm</custom2>
+<custom3>Gm</custom3>
+<custom4>Gm</custom4>
+<time>3:32</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\15-da_muzicianz_ft._mr._collipark-camera_phone_(po_clean_edit).mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>96</unique_id>
+<songid_winfo>De No, Angelica - Again (Klubjumpers Club Mix)   (7:46)</songid_winfo>
+<songid>De No, Angelica - Again (Klubjumpers Club Mix)</songid>
+<shortid>De No, Angelica - Again (Klubjumpers Club Mix)</shortid>
+<shortid_winfo>De No, Angelica - Again (Klubjumpers Club Mix)   (7:46)</shortid_winfo>
+<artist>De No, Angelica</artist>
+<title>Again</title>
+<remix>Klubjumpers Club Mix</remix>
+<custom1>4A</custom1>
+<custom2>Fm</custom2>
+<custom3>Fm</custom3>
+<custom4>Fm</custom4>
+<time>7:46</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\VA-Promo Only Mainstream Club April-2CD-2006-NVS[sabre-torrents.com]\109-angelica_de_no-again__klubjumpers_club_remix-nvs.mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-15 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>42</unique_id>
+<songid_winfo>Dina Vass and Association - Let You Get Away (Original Mix)   (6:27)</songid_winfo>
+<songid>Dina Vass and Association - Let You Get Away (Original Mix)</songid>
+<shortid>Dina Vass and Association - Let You Get Away (Original Mix)</shortid>
+<shortid_winfo>Dina Vass and Association - Let You Get Away (Original Mix)   (6:27)</shortid_winfo>
+<artist>Dina Vass and Association</artist>
+<title>Let You Get Away</title>
+<remix>Original Mix</remix>
+<custom1>8A</custom1>
+<custom2>Am</custom2>
+<custom3>Am</custom3>
+<custom4>Am</custom4>
+<time>6:27</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\102-dina_vass_and_association-let_you_get_away__original_mix-nvs.mp3</filename>
+<key_accuracy>48</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>51</unique_id>
+<songid_winfo>Dirtie Blonde - Walk Over Me   (2:58)</songid_winfo>
+<songid>Dirtie Blonde - Walk Over Me</songid>
+<shortid>Dirtie Blonde - Walk Over Me</shortid>
+<shortid_winfo>Dirtie Blonde - Walk Over Me   (2:58)</shortid_winfo>
+<artist>Dirtie Blonde</artist>
+<title>Walk Over Me</title>
+<custom1>9A</custom1>
+<custom2>C:G</custom2>
+<custom3>Em</custom3>
+<custom4>C:G</custom4>
+<time>2:58</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\18-dirtie_blonde-walk_over_me.mp3</filename>
+<key_accuracy>51</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>19</unique_id>
+<songid_winfo>DJ Volume Ft. Capretta - White Horse (Club Mix)   (6:18)</songid_winfo>
+<songid>DJ Volume Ft. Capretta - White Horse (Club Mix)</songid>
+<shortid>DJ Volume Ft. Capretta - White Horse (Club Mix)</shortid>
+<shortid_winfo>DJ Volume Ft. Capretta - White Horse (Club Mix)   (6:18)</shortid_winfo>
+<artist>DJ Volume Ft. Capretta</artist>
+<title>White Horse</title>
+<remix>Club Mix</remix>
+<custom1>11B</custom1>
+<custom2>X:Am</custom2>
+<custom3>A</custom3>
+<custom4>X:Am</custom4>
+<time>6:18</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\08-dj_volume_ft._capretta-white_horse_(club_mix).mp3</filename>
+<key_accuracy>55</key_accuracy>
+<num_plays>1</num_plays>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>87</unique_id>
+<songid_winfo>DJ Zulan and Alex Teddy - Time to (Fatblock Remix)   (6:44)</songid_winfo>
+<songid>DJ Zulan and Alex Teddy - Time to (Fatblock Remix)</songid>
+<shortid>DJ Zulan and Alex Teddy - Time to (Fatblock Remix)</shortid>
+<shortid_winfo>DJ Zulan and Alex Teddy - Time to (Fatblock Remix)   (6:44)</shortid_winfo>
+<artist>DJ Zulan and Alex Teddy</artist>
+<title>Time to</title>
+<remix>Fatblock Remix</remix>
+<custom1>9A</custom1>
+<custom2>Em</custom2>
+<custom3>Em</custom3>
+<custom4>C:Bm</custom4>
+<time>6:44</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\205-dj_zulan_and_alex_teddy-time_to__fatblock_remix-nvs.mp3</filename>
+<key_accuracy>50</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>80</unique_id>
+<songid_winfo>Djs Are Alive - Gimme Some Love (Main Mix)   (7:25)</songid_winfo>
+<songid>Djs Are Alive - Gimme Some Love (Main Mix)</songid>
+<shortid>Djs Are Alive - Gimme Some Love (Main Mix)</shortid>
+<shortid_winfo>Djs Are Alive - Gimme Some Love (Main Mix)   (7:25)</shortid_winfo>
+<artist>Djs Are Alive</artist>
+<title>Gimme Some Love</title>
+<remix>Main Mix</remix>
+<custom1>6A</custom1>
+<custom2>Gm</custom2>
+<custom3>Gm</custom3>
+<custom4>Gm</custom4>
+<time>7:25</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\208-djs_are_alive-gimme_some_love__main_mix-nvs.mp3</filename>
+<key_accuracy>47</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>48</unique_id>
+<songid_winfo>Dobson, Fefe - This Is My Life (Album Version)   (3:49)</songid_winfo>
+<songid>Dobson, Fefe - This Is My Life (Album Version)</songid>
+<shortid>Dobson, Fefe - This Is My Life (Album Version)</shortid>
+<shortid_winfo>Dobson, Fefe - This Is My Life (Album Version)   (3:49)</shortid_winfo>
+<artist>Dobson, Fefe</artist>
+<title>This Is My Life</title>
+<remix>Album Version</remix>
+<custom1>7A</custom1>
+<custom2>Dm</custom2>
+<custom3>Dm</custom3>
+<custom4>C:F</custom4>
+<time>3:49</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\15-fefe_dobson-this_is_my_life_(album_version).mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>126</unique_id>
+<songid_winfo>Dom11   (0:02)</songid_winfo>
+<songid>Dom11</songid>
+<shortid>Dom11</shortid>
+<shortid_winfo>Dom11   (0:02)</shortid_winfo>
+<title>Dom11</title>
+<custom4>C</custom4>
+<time>0:02</time>
+<time_signature>4/4</time_signature>
+<filename>G:\workspace\RapidEvolution\test data\audio files\chords\Dom11.wav</filename>
+<digital_only>yes</digital_only>
+<key_accuracy>51</key_accuracy>
+<rating>0</rating>
+<date_added>2007-11-05 12:00:00 CST</date_added>
+<styles_bitmask>01</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>127</unique_id>
+<songid_winfo>Dom9   (0:03)</songid_winfo>
+<songid>Dom9</songid>
+<shortid>Dom9</shortid>
+<shortid_winfo>Dom9   (0:03)</shortid_winfo>
+<title>Dom9</title>
+<custom4>C</custom4>
+<time>0:03</time>
+<time_signature>4/4</time_signature>
+<filename>G:\workspace\RapidEvolution\test data\audio files\chords\Dom9.wav</filename>
+<digital_only>yes</digital_only>
+<key_accuracy>53</key_accuracy>
+<rating>0</rating>
+<date_added>2007-11-05 12:00:00 CST</date_added>
+<styles_bitmask>01</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>60</unique_id>
+<songid_winfo>Dre Ft. Rick Ross - Chevy Ridin' High (PO Clean Edit)   (3:51)</songid_winfo>
+<songid>Dre Ft. Rick Ross - Chevy Ridin' High (PO Clean Edit)</songid>
+<shortid>Dre Ft. Rick Ross - Chevy Ridin' High (PO Clean Edit)</shortid>
+<shortid_winfo>Dre Ft. Rick Ross - Chevy Ridin' High (PO Clean Edit)   (3:51)</shortid_winfo>
+<artist>Dre Ft. Rick Ross</artist>
+<title>Chevy Ridin' High</title>
+<remix>PO Clean Edit</remix>
+<custom1>12A</custom1>
+<custom2>C#m</custom2>
+<custom3>C#m</custom3>
+<custom4>X:F#</custom4>
+<time>3:51</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\11-dre_ft._rick_ross-chevy_ridin_high_(po_clean_edit).mp3</filename>
+<key_accuracy>52</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>77</unique_id>
+<songid_winfo>Dynamic Rockers - Life (Original Mix)   (7:27)</songid_winfo>
+<songid>Dynamic Rockers - Life (Original Mix)</songid>
+<shortid>Dynamic Rockers - Life (Original Mix)</shortid>
+<shortid_winfo>Dynamic Rockers - Life (Original Mix)   (7:27)</shortid_winfo>
+<artist>Dynamic Rockers</artist>
+<title>Life</title>
+<remix>Original Mix</remix>
+<custom1>2A</custom1>
+<custom2>D#m</custom2>
+<custom3>D#m</custom3>
+<custom4>C:G#m</custom4>
+<time>7:27</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\109-dynamic_rockers-life__original_mix-nvs.mp3</filename>
+<key_accuracy>48</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>109</unique_id>
+<songid_winfo>Echo &amp; the Bunnymen - Lips Like Sugar (from the album "Future Retro") (Way Out West Remix Edit)   (4:50)</songid_winfo>
+<songid>Echo &amp; the Bunnymen - Lips Like Sugar (from the album "Future Retro") (Way Out West Remix Edit)</songid>
+<shortid>Echo &amp; the Bunnymen - Lips Like Sugar (from the album "Future Retro") (Way Out West Remix Edit)</shortid>
+<shortid_winfo>Echo &amp; the Bunnymen - Lips Like Sugar (from the album "Future Retro") (Way Out West Remix Edit)   (4:50)</shortid_winfo>
+<artist>Echo &amp; the Bunnymen</artist>
+<title>Lips Like Sugar (from the album "Future Retro")</title>
+<remix>Way Out West Remix Edit</remix>
+<custom1>10A</custom1>
+<custom2>Bm</custom2>
+<custom3>Bm</custom3>
+<custom4>Bm</custom4>
+<time>4:50</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\Promo Only Alternative Club April\06-echo_and_the_bunnymen-lips_like_sugar_(from_the_album_future_retro)_(way_out_west_remix_edit).mp3</filename>
+<key_accuracy>46</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-17 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>103</unique_id>
+<songid_winfo>Ensign, Sean - It's My Life (Finally) (Mike Cruz' Vox Club Mix)   (8:08)</songid_winfo>
+<songid>Ensign, Sean - It's My Life (Finally) (Mike Cruz' Vox Club Mix)</songid>
+<shortid>Ensign, Sean - It's My Life (Finally) (Mike Cruz' Vox Club Mix)</shortid>
+<shortid_winfo>Ensign, Sean - It's My Life (Finally) (Mike Cruz' Vox Club Mix)   (8:08)</shortid_winfo>
+<artist>Ensign, Sean</artist>
+<title>It's My Life (Finally)</title>
+<remix>Mike Cruz' Vox Club Mix</remix>
+<custom1>6A</custom1>
+<custom2>Gm</custom2>
+<custom3>Gm</custom3>
+<custom4>Gm</custom4>
+<time>8:08</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\VA-Promo Only Mainstream Club April-2CD-2006-NVS[sabre-torrents.com]\208-sean_ensign-its_my_life__finally__mike_cruz_vox_club_remix-nvs.mp3</filename>
+<key_accuracy>52</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-15 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>128</unique_id>
+<songid_winfo>F minor   (0:03)</songid_winfo>
+<songid>F minor</songid>
+<shortid>F minor</shortid>
+<shortid_winfo>F minor   (0:03)</shortid_winfo>
+<title>F minor</title>
+<custom4>Fm</custom4>
+<time>0:03</time>
+<time_signature>4/4</time_signature>
+<filename>G:\workspace\RapidEvolution\test data\audio files\chords\F minor.wav</filename>
+<digital_only>yes</digital_only>
+<key_accuracy>55</key_accuracy>
+<rating>0</rating>
+<date_added>2007-11-05 12:00:00 CST</date_added>
+<styles_bitmask>01</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>82</unique_id>
+<songid_winfo>Falke, Fred and Savage - Wait for Love (Original Mix)   (5:56)</songid_winfo>
+<songid>Falke, Fred and Savage - Wait for Love (Original Mix)</songid>
+<shortid>Falke, Fred and Savage - Wait for Love (Original Mix)</shortid>
+<shortid_winfo>Falke, Fred and Savage - Wait for Love (Original Mix)   (5:56)</shortid_winfo>
+<artist>Falke, Fred and Savage</artist>
+<title>Wait for Love</title>
+<remix>Original Mix</remix>
+<custom1>1A</custom1>
+<custom2>C:D#m</custom2>
+<custom3>G#m</custom3>
+<custom4>C:F#</custom4>
+<time>5:56</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\201-fred_falke_and_savage-wait_for_love__original_mix-nvs.mp3</filename>
+<key_accuracy>46</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>36</unique_id>
+<songid_winfo>Field Mob Ft. Ciara - So What (PO Clean Edit)   (3:36)</songid_winfo>
+<songid>Field Mob Ft. Ciara - So What (PO Clean Edit)</songid>
+<shortid>Field Mob Ft. Ciara - So What (PO Clean Edit)</shortid>
+<shortid_winfo>Field Mob Ft. Ciara - So What (PO Clean Edit)   (3:36)</shortid_winfo>
+<artist>Field Mob Ft. Ciara</artist>
+<title>So What</title>
+<remix>PO Clean Edit</remix>
+<custom1>2A</custom1>
+<custom2>C:A#m</custom2>
+<custom3>D#m</custom3>
+<custom4>C:F#</custom4>
+<time>3:36</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\08-field_mob_ft._ciara-so_what_(po_clean_edit).mp3</filename>
+<key_accuracy>48</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>72</unique_id>
+<songid_winfo>Firefox - Sex Shooter (Club Mix)   (5:38)</songid_winfo>
+<songid>Firefox - Sex Shooter (Club Mix)</songid>
+<shortid>Firefox - Sex Shooter (Club Mix)</shortid>
+<shortid_winfo>Firefox - Sex Shooter (Club Mix)   (5:38)</shortid_winfo>
+<artist>Firefox</artist>
+<title>Sex Shooter</title>
+<remix>Club Mix</remix>
+<custom1>4A</custom1>
+<custom2>Fm</custom2>
+<custom3>Fm</custom3>
+<custom4>Fm</custom4>
+<time>5:38</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\106-firefox-sex_shooter__club_mix-nvs.mp3</filename>
+<key_accuracy>51</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>49</unique_id>
+<songid_winfo>Flipsyde - Someday   (3:55)</songid_winfo>
+<songid>Flipsyde - Someday</songid>
+<shortid>Flipsyde - Someday</shortid>
+<shortid_winfo>Flipsyde - Someday   (3:55)</shortid_winfo>
+<artist>Flipsyde</artist>
+<title>Someday</title>
+<custom1>8A</custom1>
+<custom2>Am</custom2>
+<custom3>Am</custom3>
+<custom4>C:C</custom4>
+<time>3:55</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\16-flipsyde-someday.mp3</filename>
+<key_accuracy>51</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>58</unique_id>
+<songid_winfo>Foxx, Jamie Ft. Twista - DJ Play A Love Song (PO Clean Edit)   (4:18)</songid_winfo>
+<songid>Foxx, Jamie Ft. Twista - DJ Play A Love Song (PO Clean Edit)</songid>
+<shortid>Foxx, Jamie Ft. Twista - DJ Play A Love Song (PO Clean Edit)</shortid>
+<shortid_winfo>Foxx, Jamie Ft. Twista - DJ Play A Love Song (PO Clean Edit)   (4:18)</shortid_winfo>
+<artist>Foxx, Jamie Ft. Twista</artist>
+<title>DJ Play A Love Song</title>
+<remix>PO Clean Edit</remix>
+<custom1>9A</custom1>
+<custom2>C:Bm</custom2>
+<custom3>Em</custom3>
+<custom4>C:D</custom4>
+<time>4:18</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\09-jamie_foxx_ft._twista-dj_play_a_love_song_(po_clean_edit).mp3</filename>
+<key_accuracy>44</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>86</unique_id>
+<songid_winfo>Fresh 27 Featuring Vicky Fee - Point of View (Jules Spinner Edit)   (7:12)</songid_winfo>
+<songid>Fresh 27 Featuring Vicky Fee - Point of View (Jules Spinner Edit)</songid>
+<shortid>Fresh 27 Featuring Vicky Fee - Point of View (Jules Spinner Edit)</shortid>
+<shortid_winfo>Fresh 27 Featuring Vicky Fee - Point of View (Jules Spinner Edit)   (7:12)</shortid_winfo>
+<artist>Fresh 27 Featuring Vicky Fee</artist>
+<title>Point of View</title>
+<remix>Jules Spinner Edit</remix>
+<custom1>5A</custom1>
+<custom2>Cm</custom2>
+<custom3>Cm</custom3>
+<custom4>Cm</custom4>
+<time>7:12</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\203-fresh_27_featuring_vicky_fee-point_of_view__jules_spinner_edit-nvs.mp3</filename>
+<key_accuracy>55</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>78</unique_id>
+<songid_winfo>G, Nathan - Flashback (Men in White Suits Club Mix)   (5:47)</songid_winfo>
+<songid>G, Nathan - Flashback (Men in White Suits Club Mix)</songid>
+<shortid>G, Nathan - Flashback (Men in White Suits Club Mix)</shortid>
+<shortid_winfo>G, Nathan - Flashback (Men in White Suits Club Mix)   (5:47)</shortid_winfo>
+<artist>G, Nathan</artist>
+<title>Flashback</title>
+<remix>Men in White Suits Club Mix</remix>
+<custom1>2B</custom1>
+<custom2>X:F#m</custom2>
+<custom3>F#</custom3>
+<custom4>X:F#m</custom4>
+<time>5:47</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\110-nathan_g-flashback__men_in_white_suits_club_mix-nvs.mp3</filename>
+<key_accuracy>48</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>95</unique_id>
+<songid_winfo>Goldfrapp - Ooh La La (Benny Benassi Remix Extended)   (6:50)</songid_winfo>
+<songid>Goldfrapp - Ooh La La (Benny Benassi Remix Extended)</songid>
+<shortid>Goldfrapp - Ooh La La (Benny Benassi Remix Extended)</shortid>
+<shortid_winfo>Goldfrapp - Ooh La La (Benny Benassi Remix Extended)   (6:50)</shortid_winfo>
+<artist>Goldfrapp</artist>
+<title>Ooh La La</title>
+<remix>Benny Benassi Remix Extended</remix>
+<custom1>8A</custom1>
+<custom2>Am</custom2>
+<custom3>Am</custom3>
+<custom4>Am</custom4>
+<time>6:50</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\VA-Promo Only Mainstream Club April-2CD-2006-NVS[sabre-torrents.com]\108-goldfrapp-ooh_la_la__benny_benassi_remix_extended-nvs.mp3</filename>
+<key_accuracy>46</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-15 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>47</unique_id>
+<songid_winfo>Goldfrapp - Ooh La La (Mike "Spike" Stent Single Version)   (3:00)</songid_winfo>
+<songid>Goldfrapp - Ooh La La (Mike "Spike" Stent Single Version)</songid>
+<shortid>Goldfrapp - Ooh La La (Mike "Spike" Stent Single Version)</shortid>
+<shortid_winfo>Goldfrapp - Ooh La La (Mike "Spike" Stent Single Version)   (3:00)</shortid_winfo>
+<artist>Goldfrapp</artist>
+<title>Ooh La La</title>
+<remix>Mike "Spike" Stent Single Version</remix>
+<custom1>11B</custom1>
+<custom2>X:Am</custom2>
+<custom3>A</custom3>
+<custom4>X:Am</custom4>
+<time>3:00</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\14-goldfrapp-ooh_la_la_(mike_spike_stent_single_version).mp3</filename>
+<key_accuracy>56</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>73</unique_id>
+<songid_winfo>Gotta Featuring Spirit - You Dropped A Bomb on Me (Club Mix 1)   (4:56)</songid_winfo>
+<songid>Gotta Featuring Spirit - You Dropped A Bomb on Me (Club Mix 1)</songid>
+<shortid>Gotta Featuring Spirit - You Dropped A Bomb on Me (Club Mix 1)</shortid>
+<shortid_winfo>Gotta Featuring Spirit - You Dropped A Bomb on Me (Club Mix 1)   (4:56)</shortid_winfo>
+<artist>Gotta Featuring Spirit</artist>
+<title>You Dropped A Bomb on Me</title>
+<remix>Club Mix 1</remix>
+<custom1>2A</custom1>
+<custom2>D#m</custom2>
+<custom3>D#m</custom3>
+<custom4>C:G#m</custom4>
+<time>4:56</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\107-gotta_featuring_spirit-you_dropped_a_bomb_on_me__club_mix_1-nvs.mp3</filename>
+<key_accuracy>45</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>66</unique_id>
+<songid_winfo>Hamilton, Anthony - Pass Me Over   (4:13)</songid_winfo>
+<songid>Hamilton, Anthony - Pass Me Over</songid>
+<shortid>Hamilton, Anthony - Pass Me Over</shortid>
+<shortid_winfo>Hamilton, Anthony - Pass Me Over   (4:13)</shortid_winfo>
+<artist>Hamilton, Anthony</artist>
+<title>Pass Me Over</title>
+<custom1>8A</custom1>
+<custom2>C:C</custom2>
+<custom3>Am</custom3>
+<custom4>C:C</custom4>
+<time>4:13</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\17-anthony_hamilton-pass_me_over.mp3</filename>
+<key_accuracy>52</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>102</unique_id>
+<songid_winfo>Harris, Russ (DJ) - Hide &amp; Seek (Extended Mix)   (6:10)</songid_winfo>
+<songid>Harris, Russ (DJ) - Hide &amp; Seek (Extended Mix)</songid>
+<shortid>Harris, Russ (DJ) - Hide &amp; Seek (Extended Mix)</shortid>
+<shortid_winfo>Harris, Russ (DJ) - Hide &amp; Seek (Extended Mix)   (6:10)</shortid_winfo>
+<artist>Harris, Russ (DJ)</artist>
+<title>Hide &amp; Seek</title>
+<remix>Extended Mix</remix>
+<custom1>11B</custom1>
+<custom2>A</custom2>
+<custom3>A</custom3>
+<custom4>A</custom4>
+<time>6:10</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\VA-Promo Only Mainstream Club April-2CD-2006-NVS[sabre-torrents.com]\207-dj_russ_harris-hide_and_seek__extended_remix-nvs.mp3</filename>
+<key_accuracy>44</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-15 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>23</unique_id>
+<songid_winfo>Hawthorne Heights - Saying Sorry   (3:08)</songid_winfo>
+<songid>Hawthorne Heights - Saying Sorry</songid>
+<shortid>Hawthorne Heights - Saying Sorry</shortid>
+<shortid_winfo>Hawthorne Heights - Saying Sorry   (3:08)</shortid_winfo>
+<artist>Hawthorne Heights</artist>
+<title>Saying Sorry</title>
+<custom1>12A</custom1>
+<custom2>C:A</custom2>
+<custom3>C#m</custom3>
+<custom4>C:E</custom4>
+<time>3:08</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\02-hawthorne_heights-saying_sorry.mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>107</unique_id>
+<songid_winfo>Hot Chip - Over and Over (Naum Gabo Remix)   (7:04)</songid_winfo>
+<songid>Hot Chip - Over and Over (Naum Gabo Remix)</songid>
+<shortid>Hot Chip - Over and Over (Naum Gabo Remix)</shortid>
+<shortid_winfo>Hot Chip - Over and Over (Naum Gabo Remix)   (7:04)</shortid_winfo>
+<artist>Hot Chip</artist>
+<title>Over and Over</title>
+<remix>Naum Gabo Remix</remix>
+<custom1>5A</custom1>
+<custom2>Cm</custom2>
+<custom3>Cm</custom3>
+<custom4>Cm</custom4>
+<time>7:04</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\Promo Only Alternative Club April\03-hot_chip-over_and_over_(naum_gabo_remix).mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-17 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>97</unique_id>
+<songid_winfo>Hunter, Andy - To Life to Love (Andy Hunter Remix - Vocal Club)   (7:58)</songid_winfo>
+<songid>Hunter, Andy - To Life to Love (Andy Hunter Remix - Vocal Club)</songid>
+<shortid>Hunter, Andy - To Life to Love (Andy Hunter Remix - Vocal Club)</shortid>
+<shortid_winfo>Hunter, Andy - To Life to Love (Andy Hunter Remix - Vocal Club)   (7:58)</shortid_winfo>
+<artist>Hunter, Andy</artist>
+<title>To Life to Love</title>
+<remix>Andy Hunter Remix - Vocal Club</remix>
+<custom1>5A</custom1>
+<custom2>Cm</custom2>
+<custom3>Cm</custom3>
+<custom4>Cm</custom4>
+<time>7:58</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\VA-Promo Only Mainstream Club April-2CD-2006-NVS[sabre-torrents.com]\110-andy_hunter-to_life_to_love__andy_hunter_vocal_club_remix-nvs.mp3</filename>
+<key_accuracy>50</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-15 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>113</unique_id>
+<songid_winfo>Hunter, Andy - To Life To Love (Cedric Gervais Remix - Vocal Club)   (6:52)</songid_winfo>
+<songid>Hunter, Andy - To Life To Love (Cedric Gervais Remix - Vocal Club)</songid>
+<shortid>Hunter, Andy - To Life To Love (Cedric Gervais Remix - Vocal Club)</shortid>
+<shortid_winfo>Hunter, Andy - To Life To Love (Cedric Gervais Remix - Vocal Club)   (6:52)</shortid_winfo>
+<artist>Hunter, Andy</artist>
+<title>To Life To Love</title>
+<remix>Cedric Gervais Remix - Vocal Club</remix>
+<custom1>5A</custom1>
+<custom2>Cm</custom2>
+<custom3>Cm</custom3>
+<custom4>Cm</custom4>
+<time>6:52</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\Promo Only Alternative Club April\07-andy_hunter-to_life_to_love_(cedric_gervais_remix_-_vocal_club).mp3</filename>
+<key_accuracy>48</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-17 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>32</unique_id>
+<songid_winfo>J, Ray - What I Need   (3:24)</songid_winfo>
+<songid>J, Ray - What I Need</songid>
+<shortid>J, Ray - What I Need</shortid>
+<shortid_winfo>J, Ray - What I Need   (3:24)</shortid_winfo>
+<artist>J, Ray</artist>
+<title>What I Need</title>
+<custom1>9A</custom1>
+<custom2>Em</custom2>
+<custom3>Em</custom3>
+<custom4>Em</custom4>
+<time>3:24</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\06-ray_j-what_i_need.mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>33</unique_id>
+<songid_winfo>Jonas Brothers - Mandy   (2:48)</songid_winfo>
+<songid>Jonas Brothers - Mandy</songid>
+<shortid>Jonas Brothers - Mandy</shortid>
+<shortid_winfo>Jonas Brothers - Mandy   (2:48)</shortid_winfo>
+<artist>Jonas Brothers</artist>
+<title>Mandy</title>
+<custom1>4B</custom1>
+<custom2>X:G#m</custom2>
+<custom3>G#</custom3>
+<custom4>X:G#m</custom4>
+<time>2:48</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\07-jonas_brothers-mandy.mp3</filename>
+<key_accuracy>47</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>61</unique_id>
+<songid_winfo>Jones, Donell - I'm Gonna Be   (4:44)</songid_winfo>
+<songid>Jones, Donell - I'm Gonna Be</songid>
+<shortid>Jones, Donell - I'm Gonna Be</shortid>
+<shortid_winfo>Jones, Donell - I'm Gonna Be   (4:44)</shortid_winfo>
+<artist>Jones, Donell</artist>
+<title>I'm Gonna Be</title>
+<custom1>5A</custom1>
+<custom2>Cm</custom2>
+<custom3>Cm</custom3>
+<custom4>Cm</custom4>
+<time>4:44</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\12-donell_jones-im_gonna_be.mp3</filename>
+<key_accuracy>51</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>39</unique_id>
+<songid_winfo>Jura - Take This Out (Mike Da Wizard &amp; Anderstanding Tribaholic Mix)   (8:23)</songid_winfo>
+<songid>Jura - Take This Out (Mike Da Wizard &amp; Anderstanding Tribaholic Mix)</songid>
+<shortid>Jura - Take This Out (Mike Da Wizard &amp; Anderstanding Tribaholic Mix)</shortid>
+<shortid_winfo>Jura - Take This Out (Mike Da Wizard &amp; Anderstanding Tribaholic Mix)   (8:23)</shortid_winfo>
+<artist>Jura</artist>
+<title>Take This Out</title>
+<remix>Mike Da Wizard &amp; Anderstanding Tribaholic Mix</remix>
+<custom1>6A</custom1>
+<custom2>X:Am</custom2>
+<custom3>Gm</custom3>
+<custom4>C:Cm</custom4>
+<time>8:23</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\10-jura-take_this_out_(mike_da_wizard_and_anderstanding_tribaholic_mix).mp3</filename>
+<key_accuracy>45</key_accuracy>
+<num_plays>1</num_plays>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>67</unique_id>
+<songid_winfo>Kem - Into You   (3:51)</songid_winfo>
+<songid>Kem - Into You</songid>
+<shortid>Kem - Into You</shortid>
+<shortid_winfo>Kem - Into You   (3:51)</shortid_winfo>
+<artist>Kem</artist>
+<title>Into You</title>
+<custom1>12A</custom1>
+<custom2>C:F#m</custom2>
+<custom3>C#m</custom3>
+<custom4>C#m</custom4>
+<time>3:51</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\18-kem-into_you.mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>83</unique_id>
+<songid_winfo>Kraft - Rock Da House (3d Team Remix)   (7:02)</songid_winfo>
+<songid>Kraft - Rock Da House (3d Team Remix)</songid>
+<shortid>Kraft - Rock Da House (3d Team Remix)</shortid>
+<shortid_winfo>Kraft - Rock Da House (3d Team Remix)   (7:02)</shortid_winfo>
+<artist>Kraft</artist>
+<title>Rock Da House</title>
+<remix>3d Team Remix</remix>
+<custom1>5A</custom1>
+<custom2>Cm</custom2>
+<custom3>Cm</custom3>
+<custom4>Cm</custom4>
+<time>7:02</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\210-kraft-rock_da_house__3d_team_remix-nvs.mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>28</unique_id>
+<songid_winfo>Lachey, Nick - What's Left Of Me   (4:05)</songid_winfo>
+<songid>Lachey, Nick - What's Left Of Me</songid>
+<shortid>Lachey, Nick - What's Left Of Me</shortid>
+<shortid_winfo>Lachey, Nick - What's Left Of Me   (4:05)</shortid_winfo>
+<artist>Lachey, Nick</artist>
+<title>What's Left Of Me</title>
+<custom1>C:7A</custom1>
+<custom2>G</custom2>
+<custom3>Dm-&gt;G</custom3>
+<custom4>G</custom4>
+<time>4:05</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\04-nick_lachey-whats_left_of_me.mp3</filename>
+<key_accuracy>50</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>91</unique_id>
+<songid_winfo>LL Cool J Feat. Jennifer Lopez - Control Myself (Nevins Elektrotek Mix)   (8:50)</songid_winfo>
+<songid>LL Cool J Feat. Jennifer Lopez - Control Myself (Nevins Elektrotek Mix)</songid>
+<shortid>LL Cool J Feat. Jennifer Lopez - Control Myself (Nevins Elektrotek Mix)</shortid>
+<shortid_winfo>LL Cool J Feat. Jennifer Lopez - Control Myself (Nevins Elektrotek Mix)   (8:50)</shortid_winfo>
+<artist>LL Cool J Feat. Jennifer Lopez</artist>
+<title>Control Myself</title>
+<remix>Nevins Elektrotek Mix</remix>
+<custom1>8A</custom1>
+<custom2>Am</custom2>
+<custom3>Am</custom3>
+<custom4>Am</custom4>
+<time>8:50</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\VA-Promo Only Mainstream Club April-2CD-2006-NVS[sabre-torrents.com]\103-ll_cool_j_feat_jennifer_lopez-control_myself__nevins_elektrotek_remix-nvs.mp3</filename>
+<key_accuracy>46</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-15 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>129</unique_id>
+<songid_winfo>Maj7   (0:02)</songid_winfo>
+<songid>Maj7</songid>
+<shortid>Maj7</shortid>
+<shortid_winfo>Maj7   (0:02)</shortid_winfo>
+<title>Maj7</title>
+<custom4>C</custom4>
+<time>0:02</time>
+<time_signature>4/4</time_signature>
+<filename>G:\workspace\RapidEvolution\test data\audio files\chords\Maj7.wav</filename>
+<digital_only>yes</digital_only>
+<key_accuracy>54</key_accuracy>
+<rating>0</rating>
+<date_added>2007-11-05 12:00:00 CST</date_added>
+<styles_bitmask>01</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>130</unique_id>
+<songid_winfo>Maj7sharp11   (0:03)</songid_winfo>
+<songid>Maj7sharp11</songid>
+<shortid>Maj7sharp11</shortid>
+<shortid_winfo>Maj7sharp11   (0:03)</shortid_winfo>
+<title>Maj7sharp11</title>
+<custom4>C</custom4>
+<time>0:03</time>
+<time_signature>4/4</time_signature>
+<filename>G:\workspace\RapidEvolution\test data\audio files\chords\Maj7sharp11.wav</filename>
+<digital_only>yes</digital_only>
+<key_accuracy>52</key_accuracy>
+<rating>0</rating>
+<date_added>2007-11-05 12:00:00 CST</date_added>
+<styles_bitmask>01</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>30</unique_id>
+<songid_winfo>Matisyahu - King Without A Crown (Album Version)   (3:39)</songid_winfo>
+<songid>Matisyahu - King Without A Crown (Album Version)</songid>
+<shortid>Matisyahu - King Without A Crown (Album Version)</shortid>
+<shortid_winfo>Matisyahu - King Without A Crown (Album Version)   (3:39)</shortid_winfo>
+<artist>Matisyahu</artist>
+<title>King Without A Crown</title>
+<remix>Album Version</remix>
+<custom1>5A</custom1>
+<custom2>Cm</custom2>
+<custom3>Cm</custom3>
+<custom4>X:A#m</custom4>
+<time>3:39</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\05-matisyahu-king_without_a_crown_(album_version).mp3</filename>
+<key_accuracy>47</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>70</unique_id>
+<songid_winfo>Mattee Esse and Sant - The Bass Gets Move (Original Mix)   (5:30)</songid_winfo>
+<songid>Mattee Esse and Sant - The Bass Gets Move (Original Mix)</songid>
+<shortid>Mattee Esse and Sant - The Bass Gets Move (Original Mix)</shortid>
+<shortid_winfo>Mattee Esse and Sant - The Bass Gets Move (Original Mix)   (5:30)</shortid_winfo>
+<artist>Mattee Esse and Sant</artist>
+<title>The Bass Gets Move</title>
+<remix>Original Mix</remix>
+<custom1>6A</custom1>
+<custom2>Gm</custom2>
+<custom3>Gm</custom3>
+<custom4>Gm</custom4>
+<time>5:30</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\104-mattee_esse_and_sant-the_bass_gets_move__original_mix-nvs.mp3</filename>
+<key_accuracy>48</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>114</unique_id>
+<songid_winfo>Men, Women &amp; Children - Dance in My Blood (Moleman Remix)   (4:05)</songid_winfo>
+<songid>Men, Women &amp; Children - Dance in My Blood (Moleman Remix)</songid>
+<shortid>Men, Women &amp; Children - Dance in My Blood (Moleman Remix)</shortid>
+<shortid_winfo>Men, Women &amp; Children - Dance in My Blood (Moleman Remix)   (4:05)</shortid_winfo>
+<artist>Men, Women &amp; Children</artist>
+<title>Dance in My Blood</title>
+<remix>Moleman Remix</remix>
+<custom1>1A</custom1>
+<custom2>C:C#m</custom2>
+<custom3>G#m</custom3>
+<custom4>C:C#m</custom4>
+<time>4:05</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\Promo Only Alternative Club April\09-men_women_and_children-dance_in_my_blood_(moleman_remix).mp3</filename>
+<key_accuracy>48</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-17 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>94</unique_id>
+<songid_winfo>Midler, Bette - Fever (L.E.X. Bette's on Fire Club Mix)   (9:51)</songid_winfo>
+<songid>Midler, Bette - Fever (L.E.X. Bette's on Fire Club Mix)</songid>
+<shortid>Midler, Bette - Fever (L.E.X. Bette's on Fire Club Mix)</shortid>
+<shortid_winfo>Midler, Bette - Fever (L.E.X. Bette's on Fire Club Mix)   (9:51)</shortid_winfo>
+<artist>Midler, Bette</artist>
+<title>Fever</title>
+<remix>L.E.X. Bette's on Fire Club Mix</remix>
+<custom1>8A</custom1>
+<custom2>Am</custom2>
+<custom3>Am</custom3>
+<custom4>X:Bm</custom4>
+<time>9:51</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\VA-Promo Only Mainstream Club April-2CD-2006-NVS[sabre-torrents.com]\106-bette_midler-fever__lex_bettes_on_fire_club_remix-nvs.mp3</filename>
+<key_accuracy>48</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-15 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>131</unique_id>
+<songid_winfo>Min11   (0:02)</songid_winfo>
+<songid>Min11</songid>
+<shortid>Min11</shortid>
+<shortid_winfo>Min11   (0:02)</shortid_winfo>
+<title>Min11</title>
+<custom4>Cm</custom4>
+<time>0:02</time>
+<time_signature>4/4</time_signature>
+<filename>G:\workspace\RapidEvolution\test data\audio files\chords\Min11.wav</filename>
+<digital_only>yes</digital_only>
+<key_accuracy>47</key_accuracy>
+<rating>0</rating>
+<date_added>2007-11-05 12:00:00 CST</date_added>
+<styles_bitmask>01</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>132</unique_id>
+<songid_winfo>Min6   (0:03)</songid_winfo>
+<songid>Min6</songid>
+<shortid>Min6</shortid>
+<shortid_winfo>Min6   (0:03)</shortid_winfo>
+<title>Min6</title>
+<custom4>Cm</custom4>
+<time>0:03</time>
+<time_signature>4/4</time_signature>
+<filename>G:\workspace\RapidEvolution\test data\audio files\chords\Min6.wav</filename>
+<digital_only>yes</digital_only>
+<key_accuracy>51</key_accuracy>
+<rating>0</rating>
+<date_added>2007-11-05 12:00:00 CST</date_added>
+<styles_bitmask>01</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>133</unique_id>
+<songid_winfo>Min7   (0:02)</songid_winfo>
+<songid>Min7</songid>
+<shortid>Min7</shortid>
+<shortid_winfo>Min7   (0:02)</shortid_winfo>
+<title>Min7</title>
+<custom4>Cm</custom4>
+<time>0:02</time>
+<time_signature>4/4</time_signature>
+<filename>G:\workspace\RapidEvolution\test data\audio files\chords\Min7.wav</filename>
+<digital_only>yes</digital_only>
+<key_accuracy>53</key_accuracy>
+<rating>0</rating>
+<date_added>2007-11-05 12:00:00 CST</date_added>
+<styles_bitmask>01</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>134</unique_id>
+<songid_winfo>Min7b9   (0:02)</songid_winfo>
+<songid>Min7b9</songid>
+<shortid>Min7b9</shortid>
+<shortid_winfo>Min7b9   (0:02)</shortid_winfo>
+<title>Min7b9</title>
+<custom4>Cm</custom4>
+<time>0:02</time>
+<time_signature>4/4</time_signature>
+<filename>G:\workspace\RapidEvolution\test data\audio files\chords\Min7b9.wav</filename>
+<digital_only>yes</digital_only>
+<key_accuracy>50</key_accuracy>
+<rating>0</rating>
+<date_added>2007-11-05 12:00:00 CST</date_added>
+<styles_bitmask>01</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>135</unique_id>
+<songid_winfo>Min9   (0:02)</songid_winfo>
+<songid>Min9</songid>
+<shortid>Min9</shortid>
+<shortid_winfo>Min9   (0:02)</shortid_winfo>
+<title>Min9</title>
+<custom4>Cm</custom4>
+<time>0:02</time>
+<time_signature>4/4</time_signature>
+<filename>G:\workspace\RapidEvolution\test data\audio files\chords\Min9.wav</filename>
+<digital_only>yes</digital_only>
+<key_accuracy>51</key_accuracy>
+<rating>0</rating>
+<date_added>2007-11-05 12:00:00 CST</date_added>
+<styles_bitmask>01</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>55</unique_id>
+<songid_winfo>Mobb Deep - Put Em In Their Place (PO Clean Edit)   (3:57)</songid_winfo>
+<songid>Mobb Deep - Put Em In Their Place (PO Clean Edit)</songid>
+<shortid>Mobb Deep - Put Em In Their Place (PO Clean Edit)</shortid>
+<shortid_winfo>Mobb Deep - Put Em In Their Place (PO Clean Edit)   (3:57)</shortid_winfo>
+<artist>Mobb Deep</artist>
+<title>Put Em In Their Place</title>
+<remix>PO Clean Edit</remix>
+<custom1>2A</custom1>
+<custom2>D#m</custom2>
+<custom3>D#m</custom3>
+<custom4>C:G#m</custom4>
+<time>3:57</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\03-mobb_deep-put_em_in_their_place_(po_clean_edit).mp3</filename>
+<key_accuracy>48</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>15</unique_id>
+<songid_winfo>Mr. V - Jus Dance (Cosmic Ritual Dub)   (9:02)</songid_winfo>
+<songid>Mr. V - Jus Dance (Cosmic Ritual Dub)</songid>
+<shortid>Mr. V - Jus Dance (Cosmic Ritual Dub)</shortid>
+<shortid_winfo>Mr. V - Jus Dance (Cosmic Ritual Dub)   (9:02)</shortid_winfo>
+<artist>Mr. V</artist>
+<title>Jus Dance</title>
+<remix>Cosmic Ritual Dub</remix>
+<custom1>1A</custom1>
+<custom2>G#m</custom2>
+<custom3>G#m</custom3>
+<custom4>X:G#</custom4>
+<time>9:02</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\04-mr._v-jus_dance_(cosmic_ritual_dub).mp3</filename>
+<key_accuracy>50</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-13 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>40</unique_id>
+<songid_winfo>Ne-Yo - When You're Mad (PO Clean Edit)   (3:38)</songid_winfo>
+<songid>Ne-Yo - When You're Mad (PO Clean Edit)</songid>
+<shortid>Ne-Yo - When You're Mad (PO Clean Edit)</shortid>
+<shortid_winfo>Ne-Yo - When You're Mad (PO Clean Edit)   (3:38)</shortid_winfo>
+<artist>Ne-Yo</artist>
+<title>When You're Mad</title>
+<remix>PO Clean Edit</remix>
+<custom1>1B</custom1>
+<custom2>C:D#m</custom2>
+<custom3>B</custom3>
+<custom4>C:F#</custom4>
+<time>3:38</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\10-ne-yo-when_youre_mad_(po_clean_edit).mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>79</unique_id>
+<songid_winfo>Northernbeat Featuring Angie Brown - Rockin 4 Myself (Starlet Djs Vs N'bab)   (6:59)</songid_winfo>
+<songid>Northernbeat Featuring Angie Brown - Rockin 4 Myself (Starlet Djs Vs N'bab)</songid>
+<shortid>Northernbeat Featuring Angie Brown - Rockin 4 Myself (Starlet Djs Vs N'bab)</shortid>
+<shortid_winfo>Northernbeat Featuring Angie Brown - Rockin 4 Myself (Starlet Djs Vs N'bab)   (6:59)</shortid_winfo>
+<artist>Northernbeat Featuring Angie Brown</artist>
+<title>Rockin 4 Myself</title>
+<remix>Starlet Djs Vs N'bab</remix>
+<custom1>6B</custom1>
+<custom2>X:A#m</custom2>
+<custom3>A#</custom3>
+<custom4>X:A#m</custom4>
+<time>6:59</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\207-northernbeat_featuring_angie_brown-rockin_4_myself__starlet_djs_vs_nbab-nvs.mp3</filename>
+<key_accuracy>52</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>74</unique_id>
+<songid_winfo>Nu Frequency - Buy Me (Dub Mix)   (6:44)</songid_winfo>
+<songid>Nu Frequency - Buy Me (Dub Mix)</songid>
+<shortid>Nu Frequency - Buy Me (Dub Mix)</shortid>
+<shortid_winfo>Nu Frequency - Buy Me (Dub Mix)   (6:44)</shortid_winfo>
+<artist>Nu Frequency</artist>
+<title>Buy Me</title>
+<remix>Dub Mix</remix>
+<custom1>C:2B</custom1>
+<custom2>C:F#m</custom2>
+<custom3>F#-&gt;F#m</custom3>
+<custom4>C:Bm</custom4>
+<time>6:44</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\108-nu_frequency-buy_me__dub_mix-nvs.mp3</filename>
+<key_accuracy>54</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>110</unique_id>
+<songid_winfo>Oakenfold, Paul - Faster Kill Pussycat (Club Mix)   (5:53)</songid_winfo>
+<songid>Oakenfold, Paul - Faster Kill Pussycat (Club Mix)</songid>
+<shortid>Oakenfold, Paul - Faster Kill Pussycat (Club Mix)</shortid>
+<shortid_winfo>Oakenfold, Paul - Faster Kill Pussycat (Club Mix)   (5:53)</shortid_winfo>
+<artist>Oakenfold, Paul</artist>
+<title>Faster Kill Pussycat</title>
+<remix>Club Mix</remix>
+<custom1>6A</custom1>
+<custom2>Gm</custom2>
+<custom3>Gm</custom3>
+<custom4>Gm</custom4>
+<time>5:53</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\Promo Only Alternative Club April\05-paul_oakenfold-faster_kill_pussycat_(club_mix).mp3</filename>
+<key_accuracy>50</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-17 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>104</unique_id>
+<songid_winfo>Oakenfold, Paul - Faster Kill Pussycat (Roman Hunter Remix)   (7:55)</songid_winfo>
+<songid>Oakenfold, Paul - Faster Kill Pussycat (Roman Hunter Remix)</songid>
+<shortid>Oakenfold, Paul - Faster Kill Pussycat (Roman Hunter Remix)</shortid>
+<shortid_winfo>Oakenfold, Paul - Faster Kill Pussycat (Roman Hunter Remix)   (7:55)</shortid_winfo>
+<artist>Oakenfold, Paul</artist>
+<title>Faster Kill Pussycat</title>
+<remix>Roman Hunter Remix</remix>
+<custom1>6A</custom1>
+<custom2>C:Cm</custom2>
+<custom3>Gm</custom3>
+<custom4>X:C</custom4>
+<time>7:55</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\VA-Promo Only Mainstream Club April-2CD-2006-NVS[sabre-torrents.com]\209-paul_oakenfold-faster_kill_pussycat__roman_hunter_remix-nvs.mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-15 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>75</unique_id>
+<songid_winfo>Philter Kidz Featuring Jl - Real Love (Garron Llang Remix)   (6:34)</songid_winfo>
+<songid>Philter Kidz Featuring Jl - Real Love (Garron Llang Remix)</songid>
+<shortid>Philter Kidz Featuring Jl - Real Love (Garron Llang Remix)</shortid>
+<shortid_winfo>Philter Kidz Featuring Jl - Real Love (Garron Llang Remix)   (6:34)</shortid_winfo>
+<artist>Philter Kidz Featuring Jl</artist>
+<title>Real Love</title>
+<remix>Garron Llang Remix</remix>
+<custom1>12A</custom1>
+<custom2>C#m</custom2>
+<custom3>C#m</custom3>
+<custom4>C:F#m</custom4>
+<time>6:34</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\111-philter_kidz_featuring_jl-real_love__garron_llang_remix-nvs.mp3</filename>
+<key_accuracy>48</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>65</unique_id>
+<songid_winfo>Prince - Black Sweat   (3:10)</songid_winfo>
+<songid>Prince - Black Sweat</songid>
+<shortid>Prince - Black Sweat</shortid>
+<shortid_winfo>Prince - Black Sweat   (3:10)</shortid_winfo>
+<artist>Prince</artist>
+<title>Black Sweat</title>
+<custom1>1A</custom1>
+<custom2>G#m</custom2>
+<custom3>G#m</custom3>
+<custom4>C:B</custom4>
+<time>3:10</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\16-prince-black_sweat.mp3</filename>
+<key_accuracy>53</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>69</unique_id>
+<songid_winfo>Princess Superstar and Larry Tee - Licky (Chris Mennace Mix)   (5:58)</songid_winfo>
+<songid>Princess Superstar and Larry Tee - Licky (Chris Mennace Mix)</songid>
+<shortid>Princess Superstar and Larry Tee - Licky (Chris Mennace Mix)</shortid>
+<shortid_winfo>Princess Superstar and Larry Tee - Licky (Chris Mennace Mix)   (5:58)</shortid_winfo>
+<artist>Princess Superstar and Larry Tee</artist>
+<title>Licky</title>
+<remix>Chris Mennace Mix</remix>
+<custom1>5A</custom1>
+<custom2>Cm</custom2>
+<custom3>Cm</custom3>
+<custom4>Cm</custom4>
+<time>5:58</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\103-princess_superstar_and_larry_tee-licky__chris_mennace_mix-nvs.mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>112</unique_id>
+<songid_winfo>Prodigy, The - Voodoo People (Pendulum Remix)   (5:04)</songid_winfo>
+<songid>Prodigy, The - Voodoo People (Pendulum Remix)</songid>
+<shortid>Prodigy, The - Voodoo People (Pendulum Remix)</shortid>
+<shortid_winfo>Prodigy, The - Voodoo People (Pendulum Remix)   (5:04)</shortid_winfo>
+<artist>Prodigy, The</artist>
+<title>Voodoo People</title>
+<remix>Pendulum Remix</remix>
+<custom1>1A</custom1>
+<custom2>G#m</custom2>
+<custom3>G#m</custom3>
+<custom4>G#m</custom4>
+<time>5:04</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\Promo Only Alternative Club April\11-the_prodigy-voodoo_people_(pendulum_remix).mp3</filename>
+<key_accuracy>48</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-17 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>57</unique_id>
+<songid_winfo>Purple Ribbon All-Stars - Body Rock (PO Clean Edit)   (4:25)</songid_winfo>
+<songid>Purple Ribbon All-Stars - Body Rock (PO Clean Edit)</songid>
+<shortid>Purple Ribbon All-Stars - Body Rock (PO Clean Edit)</shortid>
+<shortid_winfo>Purple Ribbon All-Stars - Body Rock (PO Clean Edit)   (4:25)</shortid_winfo>
+<artist>Purple Ribbon All-Stars</artist>
+<title>Body Rock</title>
+<remix>PO Clean Edit</remix>
+<custom1>X:7B</custom1>
+<custom2>Fm</custom2>
+<custom3>Fm</custom3>
+<custom4>X:F</custom4>
+<time>4:25</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\08-purple_ribbon_all-stars-body_rock_(po_clean_edit).mp3</filename>
+<key_accuracy>48</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>108</unique_id>
+<songid_winfo>Radio 4 - Dance to the Underground (DFA Remix)   (8:59)</songid_winfo>
+<songid>Radio 4 - Dance to the Underground (DFA Remix)</songid>
+<shortid>Radio 4 - Dance to the Underground (DFA Remix)</shortid>
+<shortid_winfo>Radio 4 - Dance to the Underground (DFA Remix)   (8:59)</shortid_winfo>
+<artist>Radio 4</artist>
+<title>Dance to the Underground</title>
+<remix>DFA Remix</remix>
+<custom1>8A</custom1>
+<custom2>Am</custom2>
+<custom3>Am</custom3>
+<custom4>Am</custom4>
+<time>8:59</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\Promo Only Alternative Club April\04-radio_4-dance_to_the_underground_(dfa_remix).mp3</filename>
+<key_accuracy>50</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-17 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>56</unique_id>
+<songid_winfo>Ross, Rick - Hustlin'   (4:14)</songid_winfo>
+<songid>Ross, Rick - Hustlin'</songid>
+<shortid>Ross, Rick - Hustlin'</shortid>
+<shortid_winfo>Ross, Rick - Hustlin'   (4:14)</shortid_winfo>
+<artist>Ross, Rick</artist>
+<title>Hustlin'</title>
+<custom1>1A</custom1>
+<custom2>G#m</custom2>
+<custom3>G#m</custom3>
+<custom4>C:E</custom4>
+<time>4:14</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\05-rick_ross-hustlin.mp3</filename>
+<key_accuracy>50</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>92</unique_id>
+<songid_winfo>Rupaul Feat. Tom Trujillo - People Are People (Giuseppe D's Rutroactive Club)   (8:17)</songid_winfo>
+<songid>Rupaul Feat. Tom Trujillo - People Are People (Giuseppe D's Rutroactive Club)</songid>
+<shortid>Rupaul Feat. Tom Trujillo - People Are People (Giuseppe D's Rutroactive Club)</shortid>
+<shortid_winfo>Rupaul Feat. Tom Trujillo - People Are People (Giuseppe D's Rutroactive Club)   (8:17)</shortid_winfo>
+<artist>Rupaul Feat. Tom Trujillo</artist>
+<title>People Are People</title>
+<remix>Giuseppe D's Rutroactive Club</remix>
+<custom1>8A</custom1>
+<custom2>Am</custom2>
+<custom3>Am</custom3>
+<custom4>Am</custom4>
+<time>8:17</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\VA-Promo Only Mainstream Club April-2CD-2006-NVS[sabre-torrents.com]\104-rupaul-people_are_people__giuseppe_ds_rutroactive_club-nvs.mp3</filename>
+<key_accuracy>47</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-15 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>98</unique_id>
+<songid_winfo>Saint Etienne - Stars Above Us (DJ Jeff Barringer Club Mix)   (7:57)</songid_winfo>
+<songid>Saint Etienne - Stars Above Us (DJ Jeff Barringer Club Mix)</songid>
+<shortid>Saint Etienne - Stars Above Us (DJ Jeff Barringer Club Mix)</shortid>
+<shortid_winfo>Saint Etienne - Stars Above Us (DJ Jeff Barringer Club Mix)   (7:57)</shortid_winfo>
+<artist>Saint Etienne</artist>
+<title>Stars Above Us</title>
+<remix>DJ Jeff Barringer Club Mix</remix>
+<custom1>9B</custom1>
+<custom2>C:D</custom2>
+<custom3>G</custom3>
+<custom4>C:D</custom4>
+<time>7:57</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\VA-Promo Only Mainstream Club April-2CD-2006-NVS[sabre-torrents.com]\201-saint_etienne-stars_above_us__dj_jeff_barringer_club_remix-nvs.mp3</filename>
+<key_accuracy>58</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-15 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>100</unique_id>
+<songid_winfo>Santaolalla, Gustavo - The Wings (the Theme to Brokeback Mountain)   (9:10)</songid_winfo>
+<songid>Santaolalla, Gustavo - The Wings (the Theme to Brokeback Mountain)</songid>
+<shortid>Santaolalla, Gustavo - The Wings (the Theme to Brokeback Mountain)</shortid>
+<shortid_winfo>Santaolalla, Gustavo - The Wings (the Theme to Brokeback Mountain)   (9:10)</shortid_winfo>
+<artist>Santaolalla, Gustavo</artist>
+<title>The Wings (the Theme to Brokeback Mountain)</title>
+<custom1>C:7A</custom1>
+<custom2>C:Am</custom2>
+<custom3>Dm-&gt;G</custom3>
+<custom4>C:C</custom4>
+<time>9:10</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\VA-Promo Only Mainstream Club April-2CD-2006-NVS[sabre-torrents.com]\203-gustavo_santaolalla-the_wings__the_theme_to_brokeback_mountain-nvs.mp3</filename>
+<key_accuracy>45</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-15 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>118</unique_id>
+<songid_winfo>Shawnna - Gettin' Some (Clean)   (3:26)</songid_winfo>
+<songid>Shawnna - Gettin' Some (Clean)</songid>
+<shortid>Shawnna - Gettin' Some (Clean)</shortid>
+<shortid_winfo>Shawnna - Gettin' Some (Clean)   (3:26)</shortid_winfo>
+<artist>Shawnna</artist>
+<title>Gettin' Some</title>
+<remix>Clean</remix>
+<custom1>8A</custom1>
+<custom2>Am</custom2>
+<custom3>Am</custom3>
+<custom4>Am</custom4>
+<time>3:26</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\last5\01-shawnna-gettin_some_(clean).mp3</filename>
+<key_accuracy>46</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-22 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>46</unique_id>
+<songid_winfo>Shinedown - I Dare You (Rock Mix)   (3:52)</songid_winfo>
+<songid>Shinedown - I Dare You (Rock Mix)</songid>
+<shortid>Shinedown - I Dare You (Rock Mix)</shortid>
+<shortid_winfo>Shinedown - I Dare You (Rock Mix)   (3:52)</shortid_winfo>
+<artist>Shinedown</artist>
+<title>I Dare You</title>
+<remix>Rock Mix</remix>
+<custom1>4B</custom1>
+<custom2>G#</custom2>
+<custom3>G#</custom3>
+<custom4>G#</custom4>
+<time>3:52</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\13-shinedown-i_dare_you_(rock_mix).mp3</filename>
+<key_accuracy>51</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>13</unique_id>
+<songid_winfo>Spikiri Ft. Hugh Masekela - Spiyanko (Roots Mix)   (7:16)</songid_winfo>
+<songid>Spikiri Ft. Hugh Masekela - Spiyanko (Roots Mix)</songid>
+<shortid>Spikiri Ft. Hugh Masekela - Spiyanko (Roots Mix)</shortid>
+<shortid_winfo>Spikiri Ft. Hugh Masekela - Spiyanko (Roots Mix)   (7:16)</shortid_winfo>
+<artist>Spikiri Ft. Hugh Masekela</artist>
+<title>Spiyanko</title>
+<remix>Roots Mix</remix>
+<custom1>8A</custom1>
+<custom2>Am</custom2>
+<custom3>Am</custom3>
+<custom4>X:A</custom4>
+<time>7:16</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\02-spikiri_ft._hugh_masekela-spiyanko_(roots_mix).mp3</filename>
+<key_accuracy>50</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-13 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>85</unique_id>
+<songid_winfo>Stargazer - Feel Good (Original Mix)   (7:22)</songid_winfo>
+<songid>Stargazer - Feel Good (Original Mix)</songid>
+<shortid>Stargazer - Feel Good (Original Mix)</shortid>
+<shortid_winfo>Stargazer - Feel Good (Original Mix)   (7:22)</shortid_winfo>
+<artist>Stargazer</artist>
+<title>Feel Good</title>
+<remix>Original Mix</remix>
+<custom1>8A</custom1>
+<custom2>Am</custom2>
+<custom3>Am</custom3>
+<custom4>Am</custom4>
+<time>7:22</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\202-stargazer-feel_good__original_mix-nvs.mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>84</unique_id>
+<songid_winfo>Stereo K - A Man Can Change the World (Danny Jc Remix)   (7:13)</songid_winfo>
+<songid>Stereo K - A Man Can Change the World (Danny Jc Remix)</songid>
+<shortid>Stereo K - A Man Can Change the World (Danny Jc Remix)</shortid>
+<shortid_winfo>Stereo K - A Man Can Change the World (Danny Jc Remix)   (7:13)</shortid_winfo>
+<artist>Stereo K</artist>
+<title>A Man Can Change the World</title>
+<remix>Danny Jc Remix</remix>
+<custom1>9A</custom1>
+<custom2>C:Am</custom2>
+<custom3>Em</custom3>
+<custom4>C:Bm</custom4>
+<time>7:13</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\211-stereo_k-a_man_can_change_the_world__danny_jc_remix-nvs.mp3</filename>
+<key_accuracy>42</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>54</unique_id>
+<songid_winfo>T.I. - What You Know (PO Clean Edit)   (4:07)</songid_winfo>
+<songid>T.I. - What You Know (PO Clean Edit)</songid>
+<shortid>T.I. - What You Know (PO Clean Edit)</shortid>
+<shortid_winfo>T.I. - What You Know (PO Clean Edit)   (4:07)</shortid_winfo>
+<artist>T.I.</artist>
+<title>What You Know</title>
+<remix>PO Clean Edit</remix>
+<custom1>1B</custom1>
+<custom2>C:D#m</custom2>
+<custom3>B</custom3>
+<custom4>C:D#m</custom4>
+<time>4:07</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\02-t.i.-what_you_know_(po_clean_edit).mp3</filename>
+<key_accuracy>58</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>59</unique_id>
+<songid_winfo>Tamar Ft. Price - Beautiful, Loved &amp; Blessed   (5:17)</songid_winfo>
+<songid>Tamar Ft. Price - Beautiful, Loved &amp; Blessed</songid>
+<shortid>Tamar Ft. Price - Beautiful, Loved &amp; Blessed</shortid>
+<shortid_winfo>Tamar Ft. Price - Beautiful, Loved &amp; Blessed   (5:17)</shortid_winfo>
+<artist>Tamar Ft. Price</artist>
+<title>Beautiful, Loved &amp; Blessed</title>
+<custom1>11B</custom1>
+<custom2>C:F#m</custom2>
+<custom3>A</custom3>
+<custom4>A</custom4>
+<time>5:17</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\10-tamar_ft._price-beautiful_loved_and_blessed.mp3</filename>
+<key_accuracy>50</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>62</unique_id>
+<songid_winfo>Trick-Trick Ft. Jazze Pha - Attitude Adjustment (PO Clean Edit)   (3:46)</songid_winfo>
+<songid>Trick-Trick Ft. Jazze Pha - Attitude Adjustment (PO Clean Edit)</songid>
+<shortid>Trick-Trick Ft. Jazze Pha - Attitude Adjustment (PO Clean Edit)</shortid>
+<shortid_winfo>Trick-Trick Ft. Jazze Pha - Attitude Adjustment (PO Clean Edit)   (3:46)</shortid_winfo>
+<artist>Trick-Trick Ft. Jazze Pha</artist>
+<title>Attitude Adjustment</title>
+<remix>PO Clean Edit</remix>
+<custom1>3A</custom1>
+<custom2>A#m</custom2>
+<custom3>A#m</custom3>
+<custom4>X:F</custom4>
+<time>3:46</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\13-trick-trick_ft._jazze_pha-attitude_adjustment_(po_clean_edit).mp3</filename>
+<key_accuracy>52</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>44</unique_id>
+<songid_winfo>Tunstall, KT - Black Horse &amp; The Cherry Tree   (2:52)</songid_winfo>
+<songid>Tunstall, KT - Black Horse &amp; The Cherry Tree</songid>
+<shortid>Tunstall, KT - Black Horse &amp; The Cherry Tree</shortid>
+<shortid_winfo>Tunstall, KT - Black Horse &amp; The Cherry Tree   (2:52)</shortid_winfo>
+<artist>Tunstall, KT</artist>
+<title>Black Horse &amp; The Cherry Tree</title>
+<custom1>9A</custom1>
+<custom2>Em</custom2>
+<custom3>Em</custom3>
+<custom4>Em</custom4>
+<time>2:52</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\11-kt_tunstall-black_horse_and_the_cherry_tree.mp3</filename>
+<key_accuracy>51</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>90</unique_id>
+<songid_winfo>Vale, Jessica - Disco Libido (Dave Aude Future Disco Clean Mixshow)   (6:01)</songid_winfo>
+<songid>Vale, Jessica - Disco Libido (Dave Aude Future Disco Clean Mixshow)</songid>
+<shortid>Vale, Jessica - Disco Libido (Dave Aude Future Disco Clean Mixshow)</shortid>
+<shortid_winfo>Vale, Jessica - Disco Libido (Dave Aude Future Disco Clean Mixshow)   (6:01)</shortid_winfo>
+<artist>Vale, Jessica</artist>
+<title>Disco Libido</title>
+<remix>Dave Aude Future Disco Clean Mixshow</remix>
+<custom1>6A</custom1>
+<custom2>Gm</custom2>
+<custom3>Gm</custom3>
+<custom4>C:Cm</custom4>
+<time>6:01</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\VA-Promo Only Mainstream Club April-2CD-2006-NVS[sabre-torrents.com]\102-jessica_vale-disco_libido__dave_aude_future_disco_clean_mixshow-nvs.mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-15 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>38</unique_id>
+<songid_winfo>Vicious, Johnny Ft. Judy Albanese - Can't Let Go (Johnny's House Mix)   (10:23)</songid_winfo>
+<songid>Vicious, Johnny Ft. Judy Albanese - Can't Let Go (Johnny's House Mix)</songid>
+<shortid>Vicious, Johnny Ft. Judy Albanese - Can't Let Go (Johnny's House Mix)</shortid>
+<shortid_winfo>Vicious, Johnny Ft. Judy Albanese - Can't Let Go (Johnny's House Mix)   (10:23)</shortid_winfo>
+<artist>Vicious, Johnny Ft. Judy Albanese</artist>
+<title>Can't Let Go</title>
+<remix>Johnny's House Mix</remix>
+<custom1>5A</custom1>
+<custom2>Cm</custom2>
+<custom3>Cm</custom3>
+<custom4>Cm</custom4>
+<time>10:23</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\09-johnny_vicious_ft._judy_albanes-cant_let_go_(johnnys_house_mix).mp3</filename>
+<key_accuracy>49</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>81</unique_id>
+<songid_winfo>Vicious, Johnny Ft. Judy Albanese - Cant Let Go (Tribal H2 Vocal)   (8:22)</songid_winfo>
+<songid>Vicious, Johnny Ft. Judy Albanese - Cant Let Go (Tribal H2 Vocal)</songid>
+<shortid>Vicious, Johnny Ft. Judy Albanese - Cant Let Go (Tribal H2 Vocal)</shortid>
+<shortid_winfo>Vicious, Johnny Ft. Judy Albanese - Cant Let Go (Tribal H2 Vocal)   (8:22)</shortid_winfo>
+<artist>Vicious, Johnny Ft. Judy Albanese</artist>
+<title>Cant Let Go</title>
+<remix>Tribal H2 Vocal</remix>
+<custom1>6A</custom1>
+<custom2>X:Am</custom2>
+<custom3>Gm</custom3>
+<custom4>X:Am</custom4>
+<time>8:22</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\209-judy_albanese_featuring_johnny_vicious-cant_let_go__tribal_h2_vocal-nvs.mp3</filename>
+<key_accuracy>56</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>50</unique_id>
+<songid_winfo>Wall, Paul - Girl   (3:41)</songid_winfo>
+<songid>Wall, Paul - Girl</songid>
+<shortid>Wall, Paul - Girl</shortid>
+<shortid_winfo>Wall, Paul - Girl   (3:41)</shortid_winfo>
+<artist>Wall, Paul</artist>
+<title>Girl</title>
+<custom1>10B</custom1>
+<custom2>D</custom2>
+<custom3>D</custom3>
+<custom4>D</custom4>
+<time>3:41</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\17-paul_wall-girl.mp3</filename>
+<key_accuracy>48</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>53</unique_id>
+<songid_winfo>Yeah Yeah Yeahs - Gold Lion (Diplo Remix)   (4:03)</songid_winfo>
+<songid>Yeah Yeah Yeahs - Gold Lion (Diplo Remix)</songid>
+<shortid>Yeah Yeah Yeahs - Gold Lion (Diplo Remix)</shortid>
+<shortid_winfo>Yeah Yeah Yeahs - Gold Lion (Diplo Remix)   (4:03)</shortid_winfo>
+<artist>Yeah Yeah Yeahs</artist>
+<title>Gold Lion</title>
+<remix>Diplo Remix</remix>
+<custom1>11B</custom1>
+<custom2>C:F#m</custom2>
+<custom3>A</custom3>
+<custom4>C:D</custom4>
+<time>4:03</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\01-yeah_yeah_yeahs-gold_lion_(diplo_remix).mp3</filename>
+<key_accuracy>55</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>68</unique_id>
+<songid_winfo>Young Leek - Jiggle It   (3:39)</songid_winfo>
+<songid>Young Leek - Jiggle It</songid>
+<shortid>Young Leek - Jiggle It</shortid>
+<shortid_winfo>Young Leek - Jiggle It   (3:39)</shortid_winfo>
+<artist>Young Leek</artist>
+<title>Jiggle It</title>
+<custom1>X:4A</custom1>
+<custom2>Dm</custom2>
+<custom3>Dm</custom3>
+<custom4>X:A#m</custom4>
+<time>3:39</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\19-young_leek-jiggle_it.mp3</filename>
+<key_accuracy>46</key_accuracy>
+<rating>0</rating>
+<date_added>2006-05-14 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+<song num_excludes="0" num_mixouts="0">
+<unique_id>119</unique_id>
+<songid_winfo>Yung Joc - goin' down (radio)   (3:58)</songid_winfo>
+<songid>Yung Joc - goin' down (radio)</songid>
+<shortid>Yung Joc - goin' down (radio)</shortid>
+<shortid_winfo>Yung Joc - goin' down (radio)   (3:58)</shortid_winfo>
+<artist>Yung Joc</artist>
+<title>goin' down</title>
+<remix>radio</remix>
+<custom1>X:7A</custom1>
+<custom2>D#m</custom2>
+<custom3>D#m</custom3>
+<custom4>D#m</custom4>
+<time>3:58</time>
+<time_signature>4/4</time_signature>
+<filename>g:\promoonly\mp3s\last5\02-yung_joc-goin_down_(radio)-c4.mp3</filename>
+<key_accuracy>57</key_accuracy>
+<num_plays>1</num_plays>
+<rating>0</rating>
+<date_added>2006-05-22 12:00:00 CDT</date_added>
+<styles_bitmask>10</styles_bitmask>
+</song>
+</songs>
+<mixouts/>
+<excludes/>
+<artists>
+<artist styles_cached="no">
+<search_name>bittersweet</search_name>
+<songs>
+<song id="106"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>gnathan</search_name>
+<songs>
+<song id="78"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>stargazer</search_name>
+<songs>
+<song id="85"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>yeahyeahyeahs</search_name>
+<songs>
+<song id="53"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>bonjovi</search_name>
+<songs>
+<song id="20"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>jonesdonell</search_name>
+<songs>
+<song id="61"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>careymariahftsnoopdogg</search_name>
+<songs>
+<song id="22"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>youngleek</search_name>
+<songs>
+<song id="68"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>shawnna</search_name>
+<songs>
+<song id="118"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>nufrequency</search_name>
+<songs>
+<song id="74"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>casino</search_name>
+<songs>
+<song id="76"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>ti</search_name>
+<songs>
+<song id="54"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>goldfrapp</search_name>
+<songs>
+<song id="95"/>
+<song id="47"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>stereok</search_name>
+<songs>
+<song id="84"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>purpleribbonallstars</search_name>
+<songs>
+<song id="57"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>mrv</search_name>
+<songs>
+<song id="15"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>rupaulfeattomtrujillo</search_name>
+<songs>
+<song id="92"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>jonasbrothers</search_name>
+<songs>
+<song id="33"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>fresh27featuringvickyfee</search_name>
+<songs>
+<song id="86"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>denoangelica</search_name>
+<songs>
+<song id="96"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>valejessica</search_name>
+<songs>
+<song id="90"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>menwomenchildren</search_name>
+<songs>
+<song id="114"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>ensignsean</search_name>
+<songs>
+<song id="103"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>dreftrickross</search_name>
+<songs>
+<song id="60"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>amuka</search_name>
+<songs>
+<song id="99"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>clarksonkelly</search_name>
+<songs>
+<song id="101"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>tunstallkt</search_name>
+<songs>
+<song id="44"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>anoushkashankar</search_name>
+<songs>
+<song id="115"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>philterkidzfeaturingjl</search_name>
+<songs>
+<song id="75"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>firefox</search_name>
+<songs>
+<song id="72"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>falkefredandsavage</search_name>
+<songs>
+<song id="82"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>bionikphunksugarcainepresents</search_name>
+<songs>
+<song id="18"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>flipsyde</search_name>
+<songs>
+<song id="49"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>kem</search_name>
+<songs>
+<song id="67"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>bravomikeftmonicalynk</search_name>
+<songs>
+<song id="16"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>mobbdeep</search_name>
+<songs>
+<song id="55"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>dinavassandassociation</search_name>
+<songs>
+<song id="42"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>harrisrussdj</search_name>
+<songs>
+<song id="102"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>djzulanandalexteddy</search_name>
+<songs>
+<song id="87"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>gottafeaturingspirit</search_name>
+<songs>
+<song id="73"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>viciousjohnnyftjudyalbanese</search_name>
+<songs>
+<song id="38"/>
+<song id="81"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>tamarftprice</search_name>
+<songs>
+<song id="59"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>yungjoc</search_name>
+<songs>
+<song id="119"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>prince</search_name>
+<songs>
+<song id="65"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>tricktrickftjazzepha</search_name>
+<songs>
+<song id="62"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>princesssuperstarandlarrytee</search_name>
+<songs>
+<song id="69"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>dynamicrockers</search_name>
+<songs>
+<song id="77"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>damuzicianzftmrcollipark</search_name>
+<songs>
+<song id="64"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>northernbeatfeaturingangiebrown</search_name>
+<songs>
+<song id="79"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>hawthorneheights</search_name>
+<songs>
+<song id="23"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>adkinstrace</search_name>
+<songs>
+<song id="89"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>hamiltonanthony</search_name>
+<songs>
+<song id="66"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>echothebunnymen</search_name>
+<songs>
+<song id="109"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>rossrick</search_name>
+<songs>
+<song id="56"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>jura</search_name>
+<songs>
+<song id="39"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>saintetienne</search_name>
+<songs>
+<song id="98"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>dobsonfefe</search_name>
+<songs>
+<song id="48"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>matteeesseandsant</search_name>
+<songs>
+<song id="70"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>bump</search_name>
+<songs>
+<song id="71"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>spikirifthughmasekela</search_name>
+<songs>
+<song id="13"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>lacheynick</search_name>
+<songs>
+<song id="28"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>foxxjamiefttwista</search_name>
+<songs>
+<song id="58"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>atfc</search_name>
+<songs>
+<song id="41"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>codex</search_name>
+<songs>
+<song id="14"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>atomicswindlers</search_name>
+<songs>
+<song id="105"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>djvolumeftcapretta</search_name>
+<songs>
+<song id="19"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>kraft</search_name>
+<songs>
+<song id="83"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>djsarealive</search_name>
+<songs>
+<song id="80"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>coxcarl</search_name>
+<songs>
+<song id="93"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>santaolallagustavo</search_name>
+<songs>
+<song id="100"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>braxealanfredfalkesavage</search_name>
+<songs>
+<song id="12"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>matisyahu</search_name>
+<songs>
+<song id="30"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>radio4</search_name>
+<songs>
+<song id="108"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>hotchip</search_name>
+<songs>
+<song id="107"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>coldplay</search_name>
+<songs>
+<song id="17"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>fieldmobftciara</search_name>
+<songs>
+<song id="36"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>avant</search_name>
+<songs>
+<song id="117"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>wallpaul</search_name>
+<songs>
+<song id="50"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>bigworld</search_name>
+<songs>
+<song id="88"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>midlerbette</search_name>
+<songs>
+<song id="94"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>neyo</search_name>
+<songs>
+<song id="40"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>dirtieblonde</search_name>
+<songs>
+<song id="51"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>shinedown</search_name>
+<songs>
+<song id="46"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>prodigythe</search_name>
+<songs>
+<song id="112"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>oakenfoldpaul</search_name>
+<songs>
+<song id="110"/>
+<song id="104"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>bgftmanniefresh</search_name>
+<songs>
+<song id="63"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>llcooljfeatjenniferlopez</search_name>
+<songs>
+<song id="91"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>dmantradan</search_name>
+<songs>
+<song id="111"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>hunterandy</search_name>
+<songs>
+<song id="97"/>
+<song id="113"/>
+</songs>
+<styles cached="no"/>
+</artist>
+<artist styles_cached="no">
+<search_name>jray</search_name>
+<songs>
+<song id="32"/>
+</songs>
+<styles cached="no"/>
+</artist>
+</artists>
+<albumcovers/>
+</music_database>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<shortcuts>
+
+  <skipIfNotSupported/>
+  <programGroup defaultName="Mixshare\RapidEvolution" location="applications"/>
+
+  <shortcut
+     name="Rapid Evolution"
+     desktop="yes"
+     startMenu="no"
+     programGroup="yes"
+     applications="no"
+     startup="no"
+     target="$INSTALL_PATH\startRE2.jar"
+     commandLine=""
+     workingDirectory="$INSTALL_PATH\"
+     description="Harmonic music library tool."
+     iconFile="$INSTALL_PATH\icons\logo.ico"
+     iconIndex="0"
+     initialState="normal">
+     <createForPack name="Base"/>
+   </shortcut>
+
+</shortcuts>

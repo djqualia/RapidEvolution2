@@ -1,0 +1,1 @@
+The files in this directory can be safely removed if they are left behind by Rapid Evolution.

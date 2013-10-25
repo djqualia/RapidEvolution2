@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<installation version="1.0">
+	<info>
+		<appname>Rapid Evolution</appname>
+		<appversion>@@@RE2_VERSION@@@</appversion>
+		<authors>
+			<author name="Jesse Bickmore" email="qualia@mixshare.com" />
+		</authors>
+		<url>http://www.mixshare.com/</url>
+		<run-privileged></run-privileged>
+	</info>
+	<variables>
+		<variable name="RE2_MEMORY" value="400" />
+		<variable name="RE2_AA" value="true" />
+		<variable name="RE2_VERSION" value="@@@RE2_VERSION@@@" />
+	</variables>
+	<guiprefs width="540" height="480" resizable="no" />
+	<locale>
+		<langpack iso3="eng" />
+	</locale>
+	<resources>
+		<res id="InfoPanel.info" src="config/izpack/Readme.txt" />
+		<res src="config/izpack/default_shortcut_specification.xml"
+			id="shortcutSpec.xml" />
+		<res src="config/izpack/unix_shortcut_specification.xml"
+			id="Unix_shortcutSpec.xml" />
+		<res src="config/izpack/userInputSpec.xml" id="userInputSpec.xml" />		
+  		<res id="userInputLang.xml_eng" src="config/izpack/userInputLang.xml_eng" />
+  	</resources>
+	<panels>
+		<panel classname="HelloPanel" />
+		<panel classname="InfoPanel" />
+		<panel classname="TargetPanel" />
+		<panel os="windows" classname="UserInputPanel" />
+		<panel os="unix" classname="UserInputPanel" />
+		<!-- <panel classname="PacksPanel"/> -->
+		<panel classname="InstallPanel" />
+		<panel classname="ShortcutPanel" />
+		<panel classname="FinishPanel" />
+	</panels>
+	<packs>
+		<pack name="Base" required="yes">
+			<description>The base files</description>
+
+			<file src="config/izpack/install files/noalbumcover.gif"
+				targetdir="$INSTALL_PATH/albumcovers" />
+			<file src="config/izpack/install files/readme.txt"
+				targetdir="$INSTALL_PATH/temp" />
+			<file src="config/izpack/install files/log4j.properties"
+				targetdir="$INSTALL_PATH" />
+			<file src="config/izpack/install files/client.policy"
+				targetdir="$INSTALL_PATH" />
+
+			<file os="windows" src="bundles/translations.properties"
+				targetdir="$INSTALL_PATH/bundles" />
+			<file os="windows" src="bundles/translations_de.properties"
+				targetdir="$INSTALL_PATH/bundles" />
+			<file os="windows" src="deploy/rapid_evolution.jar"
+				targetdir="$INSTALL_PATH" />
+			<file os="windows" src="config/izpack/install files/re2.bat" override="true"
+				targetdir="$INSTALL_PATH" />
+			<file os="windows" src="config/izpack/install files/startRE2.jar"
+				targetdir="$INSTALL_PATH" />
+			<file os="windows" src="config/izpack/install files/faad.exe"
+				targetdir="$INSTALL_PATH" />
+			<file os="windows" src="lib/entagged-tageditor-0.21.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/jaudiotagger.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/RE2DataRetriever.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/jid3lib-0.5.4.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/jflac-1.2.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/jftp.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/JID3.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/jl1.0.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/jogg-0.0.7.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/jmac.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/jmac.dll"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/jmacspi15.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/jmacdecoder.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/jmactritonusspi.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/jorbis-0.0.15.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/mp3spi1.9.4.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/myid33.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/poi-2.5.1-final-20040804.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/RelativeLayout.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/tritonus_mp3.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/tritonus_jorbis.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/tritonus_share.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/vorbisspi1.0.2.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/commons-logging-1.1.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/commons-logging-api-1.1.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/commons-codec-1.3.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/commons-httpclient-3.0.1.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/MRJAdapter.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/log4j-1.2.13.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/substance.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="lib/jcalendar-1.3.2.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="windows" src="config/izpack/install files/logo.ico"
+				targetdir="$INSTALL_PATH/icons" />
+
+			<file os="unix" src="bundles/translations.properties"
+				targetdir="$INSTALL_PATH/bundles" />
+			<file os="unix" src="bundles/translations_de.properties"
+				targetdir="$INSTALL_PATH/bundles" />
+			<file os="unix" src="deploy/rapid_evolution.jar"
+				targetdir="$INSTALL_PATH" />
+			<file os="unix" src="config/izpack/install files/re2.sh" override="true"
+				targetdir="$INSTALL_PATH" />
+			<file os="unix" src="lib/jid3lib-0.5.4.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/entagged-tageditor-0.21.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/jaudiotagger.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/RE2DataRetriever.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/jflac-1.2.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/jftp.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/JID3.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/jl1.0.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/jogg-0.0.7.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/jmac.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/jmacspi15.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/jmacdecoder.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/jmactritonusspi.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/jorbis-0.0.15.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/mp3spi1.9.4.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/myid33.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/poi-2.5.1-final-20040804.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/RelativeLayout.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/tritonus_mp3.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/tritonus_jorbis.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/tritonus_share.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/vorbisspi1.0.2.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/commons-logging-1.1.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/commons-logging-api-1.1.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/commons-codec-1.3.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/commons-httpclient-3.0.1.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/MRJAdapter.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/log4j-1.2.13.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/jcalendar-1.3.2.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="lib/substance.jar"
+				targetdir="$INSTALL_PATH/libs" />
+			<file os="unix" src="config/izpack/install files/logo.png"
+				targetdir="$INSTALL_PATH/icons" />
+
+			<file os="mac" src="config\izpack\install files\macosx\Rapid Evolution.app\Contents\Info.plist"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents" />
+			<file os="mac" src="config\izpack\install files\macosx\Rapid Evolution.app\Contents\PkgInfo"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents" />
+			<file os="mac" src="config\izpack\install files\macosx\appIcon.icns"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources" />
+			<file os="mac" src="deploy/rapid_evolution.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java" />
+			<file os="mac" src="bundles/translations.properties"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/bundles" />
+			<file os="mac" src="bundles/translations_de.properties"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/bundles" />
+			<file os="mac" src="lib/entagged-tageditor-0.21.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/jaudiotagger.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/RE2DataRetriever.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />				
+			<file os="mac" src="lib/jid3lib-0.5.4.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/jflac-1.2.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/jftp.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/JID3.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/jl1.0.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/jogg-0.0.7.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/jmac.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/libjmac.so"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/jmacspi15.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/jmacdecoder.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/jmactritonusspi.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/jorbis-0.0.15.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/mp3spi1.9.4.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/myid33.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/poi-2.5.1-final-20040804.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/RelativeLayout.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/tritonus_mp3.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/tritonus_jorbis.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/tritonus_share.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/vorbisspi1.0.2.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/commons-logging-1.1.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/commons-logging-api-1.1.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/commons-codec-1.3.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/commons-httpclient-3.0.1.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/log4j-1.2.13.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/MRJAdapter.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/jcalendar-1.3.2.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/substance.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/quaqua.jar"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac" src="lib/libquaqua.jnilib"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/Resources/Java/libs" />
+			<file os="mac"
+				src="config\izpack\install files\macosx\Rapid Evolution.app\Contents\MacOS\JavaApplicationStub"
+				targetdir="$INSTALL_PATH/Rapid Evolution.app/Contents/MacOS" />
+			<file os="mac"
+				src="config\izpack\install files\macosx\faad_OSX"
+				targetdir="$INSTALL_PATH/faad_OSX" />
+
+			<file src="skins"
+				targetdir="$INSTALL_PATH" />
+
+			<parsable os="unix" targetfile="$INSTALL_PATH/re2.sh"
+				type="shell" />
+			<parsable os="windows" targetfile="$INSTALL_PATH/re2.bat"
+				type="shell" />
+			<parsable os="mac" targetfile="$INSTALL_PATH/Rapid Evolution.app/Contents/Info.plist"
+				type="shell" />
+
+			<executable os="windows" targetfile="$INSTALL_PATH/re2.bat"
+				stage="never" />
+			<executable os="windows" targetfile="$INSTALL_PATH/faad.exe"
+				stage="never" />
+			<executable os="unix" targetfile="$INSTALL_PATH/re2.sh"
+				stage="never" />
+			<executable os="mac"
+				targetfile="$INSTALL_PATH/faad_OSX"
+				stage="never" />
+			<executable os="mac"
+				targetfile="$INSTALL_PATH/Rapid Evolution.app/Contents/MacOS/JavaApplicationStub"
+				stage="never" />
+		</pack>
+	</packs>
+	<native type="izpack" name="ShellLink.dll" />
+</installation>
